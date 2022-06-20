@@ -10,4 +10,8 @@ atau
 
 https://raw.githubusercontent.com/cleopatraxfeius/config/main/update.yaml
 
+atau
+
+https://s.id/configupdate
+
 Terima kasih
