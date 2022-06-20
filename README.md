@@ -1,4 +1,4 @@
-<h1 align="center"> <a href="https://ibb.co/bJP04F3"><img src="https://i.ibb.co/bJP04F3/zeen-chin.jpg" alt="zeen-chin" border="0" /></a>
+<h1 align="center"> <a href="https://ibb.co/HT1hV3r"><img src="https://i.ibb.co/TMpWkdH/toppng-com-report-abuse-kawaii-anime-bear-girl-679x886.png" alt="toppng-com-report-abuse-kawaii-anime-bear-girl-679x886" border="0" /></a>
  <br>
     Config for Clash
  <br>
