@@ -1,4 +1,4 @@
-<h1 align="center"> <a href="https://ibb.co/cTdZ12Y"><img src="https://i.ibb.co/KyHfXVK/Screenshot-20220502-082159-You-Tube-2.png" alt="Screenshot-20220502-082159-You-Tube-2" border="0" /></a>
+<h1 align="center"> <a href="https://ibb.co/bJP04F3"><img src="https://i.ibb.co/bJP04F3/zeen-chin.jpg" alt="zeen-chin" border="0" /></a>
  <br>
     Config for Clash
  <br>
