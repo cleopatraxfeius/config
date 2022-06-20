@@ -1,17 +1,25 @@
-# Config For Clash
+<h1 align="center"> <a href="https://ibb.co/cTdZ12Y"><img src="https://i.ibb.co/KyHfXVK/Screenshot-20220502-082159-You-Tube-2.png" alt="Screenshot-20220502-082159-You-Tube-2" border="0" /></a>
+ <br>
+    Config for Clash
+ <br>
 
-Tinggal download saja :)
+<h4 align="center">Web for hosting config clash, enjoy while using it, let's beginning</h4>
 
-# Link
+## Features
 
-https://cleopatraxfeius.github.io/config/update.yaml
+  - All Clash config is auto update
+  - Update every week
+  - Auto fix error
+  - No problem
 
-atau
+## Link
 
-https://raw.githubusercontent.com/cleopatraxfeius/config/main/update.yaml
+Config [Update](https://github.com/Dreamacro/clash-dashboard/projects)
 
-atau
+### Development Env
 
-https://s.id/configupdate
+This command will start Clash Dashboard at `http://localhost:9090/ui`
 
-Terima kasih
+## License
+
+© cleopatraxfeius | allright reserved
