@@ -14,7 +14,7 @@
 
 ## Link
 
-Config [Update](https://github.com/Dreamacro/clash-dashboard/projects)
+Config [Update](https://raw.githubusercontent.com/cleopatraxfeius/config/main/update.yaml)
 
 ### Development Env
 
