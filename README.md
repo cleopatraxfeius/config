@@ -3,7 +3,7 @@
     Config for Clash
  <br>
 
-<h4 align="center">Web for hosting config clash, enjoy while using it, let's beginning</h4>
+<h4 align="center">Web hosting for config clash, enjoy while using it, let's beginning</h4>
 
 ## Features
 
