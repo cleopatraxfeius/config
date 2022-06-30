@@ -6,11 +6,11 @@ reff:
   - &line cdntest40.line-scdn.net
 
 proxies:
-  - name: SG OVH 1
+  - name: SG OVh 1st
     server: *edu
     port: 443
     type: trojan
-    password: 5ea2b6d0-f1f2-11ec-9eb4-1239d0255272
+    password: 1d050ff0-f884-11ec-b15b-1239d0255272
     skip-cert-verify: true
     sni: sgovh-trojan.bonds.id
     network: ws
@@ -19,11 +19,11 @@ proxies:
       headers: 
         Host: sgovh-trojan.bonds.id
     udp: true
-  - name: SG OVH 2
+  - name: SG OVh 2nd
     server: *edu
     port: 443
     type: trojan
-    password: 91570840-f1f2-11ec-a99a-1239d0255272
+    password: 8990e170-f884-11ec-8312-1239d0255272
     skip-cert-verify: true
     sni: sgovh-trojan.bonds.id
     network: ws
@@ -32,75 +32,20 @@ proxies:
       headers: 
         Host: sgovh-trojan.bonds.id
     udp: true
-  - name: SG OVH 3
+  - name: ID B!znet
     server: *edu
     port: 443
     type: trojan
-    password: d788fde0-f1f2-11ec-8c8b-1239d0255272
+    password: ca0953d0-f884-11ec-a82f-1239d0255272
     skip-cert-verify: true
-    sni: sgovh-trojan.bonds.id
+    sni: id2-trojan.bonds.id
     network: ws
     ws-opts: 
       path: /howdy
       headers: 
-        Host: sgovh-trojan.bonds.id
+        Host: id2-trojan.bonds.id
     udp: true
-  - name: ID Rackj
-    server: *edu
-    port: 443
-    type: trojan
-    password: 8095b570-f1f3-11ec-ae9f-1239d0255272
-    skip-cert-verify: true
-    sni: id-rackhtj.bonds.id
-    network: ws
-    ws-opts: 
-      path: /howdy
-      headers: 
-        Host: id-rackhtj.bonds.id
-    udp: true
-  - name: ID Biznet
-    server: *edu
-    port: 443
-    type: trojan
-    password: ecb02dc0-f1f3-11ec-8c99-1239d0255272
-    skip-cert-verify: true
-    sni: id5-trojan.bonds.id
-    network: ws
-    ws-opts: 
-      path: /howdy
-      headers: 
-        Host: id5-trojan.bonds.id
-    udp: true
-  - name: ID Uninet
-    server: *edu
-    port: 443
-    type: trojan
-    password: 2ae21150-f1f4-11ec-a0a5-1239d0255272
-    skip-cert-verify: true
-    sni: idtj-uninet.bonds.id
-    network: ws
-    ws-opts: 
-      path: /howdy
-      headers: 
-        Host: idtj-uninet.bonds.id
-    udp: true
-  - name: SG LB Emergency
-    server: *edu
-    port: 443
-    type: vmess
-    uuid: 6fea1649-425b-4092-bf53-29792152c925
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg-lb.sshkit.org
-    network: ws
-    ws-opts: 
-      path: /sshkit/ananab/62b2b80437ccb/
-      headers: 
-        Host: sg-lb.sshkit.org
-    udp: true
-  - name: ID LB Emergency
+  - name: ID LB ex
     server: *edu
     port: 443
     type: vmess
@@ -112,20 +57,23 @@ proxies:
     servername: id-lb.sshkit.org
     network: ws
     ws-opts: 
-      path: /sshkit/jajjsjs/62b2b9e4c645b/
+      path: /sshkit/Jxjsjjzhaz/62bdba1dbecfd/
       headers: 
         Host: id-lb.sshkit.org
     udp: true
-  - name: CA Server
+  - name: SG LB ez
     server: *edu
     port: 443
-    type: trojan
-    password: 19ca7480-f1f5-11ec-a346-1239d0255272
+    type: vmess
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: ca-trojan.bonds.id
+    servername: sg-lb.sshkit.org
     network: ws
     ws-opts: 
-      path: /howdy
+      path: /sshkit/Ksjshbs/62bdba8016e07/
       headers: 
-        Host: ca-trojan.bonds.id
+        Host: sg-lb.sshkit.org
     udp: true
