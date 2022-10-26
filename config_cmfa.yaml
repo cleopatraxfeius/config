@@ -133,8 +133,7 @@ proxy-groups:
     type: fallback
     url: http://hi.bonds.id/ping
     interval: 300
-    proxies:
-      - DIRECT
+    proxies: ~
     use:
       - All-Server
 proxy-providers:
