@@ -129,21 +129,19 @@ dns:
     - +.media.dssott.com
 proxies: ~
 proxy-groups:
-  - name: Final-Server's
+  - name: Fallback_server
     type: select
-    proxies:
-      - DIRECT
     use:
       - All-Server
 proxy-providers:
   All-Server:
     type: file
-    path: ./All-Server.yaml
+    path: ./update_cmfa.yaml
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 600
-    url: https://raw.githubusercontent.com/cleopatraxfeius/config/main/config_clash-android.yaml
+    url: https://raw.githubusercontent.com/cleopatraxfeius/config/main/update_cmfa.yaml
     interval: 86400
 rules:
-  - MATCH,Final-Server's
+  - MATCH,Fallback_server
