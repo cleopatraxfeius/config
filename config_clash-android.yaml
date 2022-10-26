@@ -15,3 +15,19 @@ proxies:
       headers: 
         Host: sg-lb.vhax.net
     udp: true
+  - name: test_2
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-lb.vhax.net
+    network: ws
+    ws-opts: 
+      path: /sshkit/odosjwb/6358934e365aa/
+      headers: 
+        Host: sg-lb.vhax.net
+    udp: true
