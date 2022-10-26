@@ -163,7 +163,7 @@ proxies:
       headers: 
         Host: id-lb.vhax.net
     udp: true
-  - name: weekly test-99
+  - name: weekly test-11
     server: api.qiscus.com
     port: 443
     type: vmess
