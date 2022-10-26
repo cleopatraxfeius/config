@@ -31,7 +31,7 @@ proxies:
       headers: 
         Host: sg1.31vpn.com
     udp: true
-  - name: sg lb ovh
+  - name: sg lb ovh 1st
     server: api.qiscus.com
     port: 443
     type: vmess
@@ -60,7 +60,7 @@ proxies:
       headers: 
         Host: sgovh-trojan.bonds.id
     udp: true
-  - name: sg lb ovh
+  - name: sg lb ovh 2nd
     server: api.qiscus.com
     port: 443
     type: vmess
@@ -115,7 +115,7 @@ proxies:
       headers: 
         Host: id5-trojan.bonds.id
     udp: true
-  - name: sg lb biznet
+  - name: id lb biznet
     server: api.qiscus.com
     port: 443
     type: vmess
