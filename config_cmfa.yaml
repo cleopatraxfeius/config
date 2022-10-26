@@ -130,7 +130,9 @@ dns:
 proxies: ~
 proxy-groups:
   - name: Fallback_server
-    type: loadbalance
+    type: fallback
+    url: http://hi.bonds.id/ping
+    interval: 300
     use:
       - All-Server
 proxy-providers:
