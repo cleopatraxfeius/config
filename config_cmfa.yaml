@@ -146,6 +146,6 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
       interval: 600
     url: https://raw.githubusercontent.com/cleopatraxfeius/config/main/update_cmfa.yaml
-    interval: 60
+    interval: 86400
 rules:
   - MATCH,Fallback_server
