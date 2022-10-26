@@ -127,7 +127,7 @@ dns:
     - "*.ffxiv.com"
     - "*.mcdn.bilivideo.cn"
     - +.media.dssott.com
-proxies: ~
+proxies:
 proxy-groups:
   - name: Fallback_server
     type: fallback
