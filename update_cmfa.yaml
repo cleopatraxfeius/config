@@ -1,5 +1,37 @@
 proxies:
-  - name: test
+  - name: sgdo weekly
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: cc8398d4-0aa9-4de4-82b5-622361974f5e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray3.udpgw.com
+    network: ws
+    ws-opts: 
+      path: /howdy
+      headers: 
+        Host: v2ray3.udpgw.com
+    udp: true
+  - name: sg ovh dualstack
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: a9481600-ef36-402a-a0e5-5547bfd7b87c
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1.31vpn.com
+    network: ws
+    ws-opts: 
+      path: /fastssh/hsjshskkaa/6358a09437359/
+      headers: 
+        Host: sg1.31vpn.com
+    udp: true
+  - name: sg lb ovh
     server: api.qiscus.com
     port: 443
     type: vmess
@@ -15,7 +47,20 @@ proxies:
       headers: 
         Host: sg-lb.vhax.net
     udp: true
-  - name: test_2
+  - name: sg ovh 1st
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: d4182b30-54d7-11ed-aca7-1239d0255272
+    skip-cert-verify: true
+    sni: sgovh-trojan.bonds.id
+    network: ws
+    ws-opts: 
+      path: /howdy
+      headers: 
+        Host: sgovh-trojan.bonds.id
+    udp: true
+  - name: sg lb ovh
     server: api.qiscus.com
     port: 443
     type: vmess
@@ -30,4 +75,59 @@ proxies:
       path: /sshkit/odosjwb/6358934e365aa/
       headers: 
         Host: sg-lb.vhax.net
+    udp: true
+  - name: sg ovh 2nd
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: 19b6b5a0-54d8-11ed-be47-1239d0255272
+    skip-cert-verify: true
+    sni: sgovh-trojan.bonds.id
+    network: ws
+    ws-opts: 
+      path: /howdy
+      headers: 
+        Host: sgovh-trojan.bonds.id
+    udp: true
+  - name: id herza
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: 74072c70-54d8-11ed-a2b4-1239d0255272
+    skip-cert-verify: true
+    sni: idtj-herza.bonds.id
+    network: ws
+    ws-opts: 
+      path: /howdy
+      headers: 
+        Host: idtj-herza.bonds.id
+    udp: true
+  - name: id biznet x banten
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: ae182fa0-54d8-11ed-95b1-1239d0255272
+    skip-cert-verify: true
+    sni: id5-trojan.bonds.id
+    network: ws
+    ws-opts: 
+      path: /howdy
+      headers: 
+        Host: id5-trojan.bonds.id
+    udp: true
+  - name: sg lb biznet
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id-lb.vhax.net
+    network: ws
+    ws-opts: 
+      path: /sshkit/kdkdjjsbbsj/63589d3456c1b/
+      headers: 
+        Host: id-lb.vhax.net
     udp: true
