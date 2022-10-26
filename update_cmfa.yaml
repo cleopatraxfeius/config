@@ -147,7 +147,7 @@ proxies:
       headers: 
         Host: id-lb.vhax.net
     udp: true
-  - name: test_se
+  - name: test_jj
     server: api.qiscus.com
     port: 443
     type: vmess
