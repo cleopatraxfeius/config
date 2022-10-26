@@ -137,7 +137,7 @@ proxy-groups:
       - All-Server
 proxy-providers:
   All-Server:
-    type: file
+    type: http
     path: ./update_cmfa.yaml
     health-check:
       enable: true
