@@ -139,7 +139,7 @@ proxy-providers:
   All-Server:
     type: http
     url: "https://raw.githubusercontent.com/cleopatraxfeius/config/main/update_cmfa.yaml"
-    interval: ~
+    interval: 300
     path: ./update_cmfa.yaml
     health-check:
       enable: true
