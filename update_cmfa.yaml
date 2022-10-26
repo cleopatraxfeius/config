@@ -163,4 +163,20 @@ proxies:
       headers: 
         Host: id-lb.vhax.net
     udp: true
+  - name: weekly test
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: cc8398d4-0aa9-4de4-82b5-622361974f5e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray3.udpgw.com
+    network: ws
+    ws-opts: 
+      path: /howdy
+      headers: 
+        Host: v2ray3.udpgw.com
+    udp: true
 
