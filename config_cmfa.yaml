@@ -130,7 +130,7 @@ dns:
 proxies: ~
 proxy-groups:
   - name: Fallback_server
-    type: fallback
+    type: loadbalance
     use:
       - All-Server
 proxy-providers:
