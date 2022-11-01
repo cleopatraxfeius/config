@@ -5,7 +5,7 @@ proxies:
     server: api.qiscus.com
     port: 443
     type: vmess
-    uuid: 51919649-2e75-4562-8032-7aae3c3a1f2c
+    uuid: 2568c482-1092-410a-ba57-8e564474003a
     alterId: 0
     cipher: auto
     tls: true
@@ -148,4 +148,20 @@ proxies:
       path: /sshkit/kaksjjs/635cc2f0d6a5a/
       headers: 
         Host: id-lb.vhax.net
+    udp: true
+  - name: jp linode
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: c599dee1-3706-4a12-8ab2-c3c3dfdba310
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: jpl-1.herbalv2ray.me
+    network: ws
+    ws-opts: 
+      path: /herbalserver
+      headers: 
+        Host: jpl-1.herbalv2ray.me
     udp: true
