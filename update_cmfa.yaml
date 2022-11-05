@@ -179,3 +179,4 @@ proxies:
       headers: 
         Host: jpl-1.herbalv2ray.me
     udp: true
+  - name: test
