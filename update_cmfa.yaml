@@ -1,5 +1,6 @@
 # update config
 # exp 13 November 2022
+# belum update >>> weekly, dualstack
 proxies:
   - name: sgdo herbal
     server: api.qiscus.com
@@ -61,7 +62,7 @@ proxies:
     servername: sg-lb.vhax.net
     network: ws
     ws-opts: 
-      path: /sshkit/jsosjksjsla/635cbd9fb978c/
+      path: /sshkit/pwosjjs/63667073559ca/
       headers: 
         Host: sg-lb.vhax.net
     udp: true
@@ -85,7 +86,7 @@ proxies:
     server: api.qiscus.com
     port: 443
     type: trojan
-    password: a0afa490-574e-11ed-9733-1239d0255272
+    password: fe874dd0-5d15-11ed-b210-1239d0255272
     skip-cert-verify: true
     sni: sgovh-trojan.bonds.id
     network: ws
@@ -98,7 +99,7 @@ proxies:
     server: api.qiscus.com
     port: 443
     type: trojan
-    password: f9832720-574e-11ed-ac23-1239d0255272
+    password: 2ea77800-5d16-11ed-afa1-1239d0255272
     skip-cert-verify: true
     sni: sgovh-trojan.bonds.id
     network: ws
@@ -111,7 +112,7 @@ proxies:
     server: api.qiscus.com
     port: 443
     type: trojan
-    password: 61660cd0-574f-11ed-943d-1239d0255272
+    password: 9340ed40-5d15-11ed-bb7e-1239d0255272
     skip-cert-verify: true
     sni: idtj-herza.bonds.id
     network: ws
@@ -120,18 +121,18 @@ proxies:
       headers: 
         Host: idtj-herza.bonds.id
     udp: true
-  - name: id biznet x banten
+  - name: id ikd x ½ bogor
     server: api.qiscus.com
     port: 443
     type: trojan
-    password: 2b7c5280-574e-11ed-8b3c-1239d0255272
+    password: eaa24f30-5d16-11ed-a27d-1239d0255272
     skip-cert-verify: true
-    sni: id5-trojan.bonds.id
+    sni: idtj-ikd.bonds.id
     network: ws
     ws-opts: 
       path: /howdy
       headers: 
-        Host: id5-trojan.bonds.id
+        Host: idtj-ikd.bonds.id
     udp: true
   - name: id lb biznet
     server: api.qiscus.com
@@ -145,15 +146,28 @@ proxies:
     servername: id-lb.vhax.net
     network: ws
     ws-opts: 
-      path: /sshkit/kaksjjs/635cc2f0d6a5a/
+      path: /sshkit/aiajsbjajs/636671100523e/
       headers: 
         Host: id-lb.vhax.net
+    udp: true
+  - name: brazil network
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: 32dc9260-5d18-11ed-bcf4-1239d0255272
+    skip-cert-verify: true
+    sni: br1-trojan.bonds.id
+    network: ws
+    ws-opts: 
+      path: /howdy
+      headers: 
+        Host: br1-trojan.bonds.id
     udp: true
   - name: jp linode
     server: api.qiscus.com
     port: 443
     type: vmess
-    uuid: c599dee1-3706-4a12-8ab2-c3c3dfdba310
+    uuid: 46d46ddf-2aa4-4510-b195-9c28a3558636
     alterId: 0
     cipher: auto
     tls: true
