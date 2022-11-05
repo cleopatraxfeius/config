@@ -180,3 +180,18 @@ proxies:
         Host: jpl-1.herbalv2ray.me
     udp: true
   - name: test
+    server: google.com
+    port: 443
+    type: vmess
+    uuid: 46d46ddf-2aa4-4510-b195-9c28a3558636
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: jpl-1.herbalv2ray.me
+    network: ws
+    ws-opts: 
+      path: /herbalserver
+      headers: 
+        Host: jpl-1.herbalv2ray.me
+    udp: true
