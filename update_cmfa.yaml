@@ -1,5 +1,5 @@
 # update config
-# exp 05 November 2022
+# exp 13 November 2022
 proxies:
   - name: sgdo herbal
     server: api.qiscus.com
@@ -21,17 +21,17 @@ proxies:
     server: api.qiscus.com
     port: 443
     type: vmess
-    uuid: 084f01cb-594a-4f93-9a3a-c68ed0b8b946
+    uuid: ad869df6-4a4d-4bbf-a625-f2e618be6854
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: dynamic-sg1b.obfs.xyz
+    servername: dynamic-sg2b.obfs.xyz
     network: ws
     ws-opts: 
       path: /fastssh
       headers: 
-        Host: dynamic-sg1b.obfs.xyz
+        Host: dynamic-sg2b.obfs.xyz
     udp: true
   - name: sg linode weekly
     server: api.qiscus.com
