@@ -1,6 +1,7 @@
 # update config
 # exp 13 November 2022
-# belum update >>> weekly, dualstack
+bug:
+  - &edu api.qiscus.com
 proxies:
   - name: sgdo herbal
     server: api.qiscus.com
@@ -38,17 +39,17 @@ proxies:
     server: api.qiscus.com
     port: 443
     type: vmess
-    uuid: ab381e7b-e114-44dc-9a76-7467205a8397
+    uuid: da9f8386-6145-4fed-8691-bea3914ef125
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: v2ray1.udpgw.com
+    servername: v2ray2.udpgw.com
     network: ws
     ws-opts: 
       path: /howdy
       headers: 
-        Host: v2ray1.udpgw.com
+        Host: v2ray2.udpgw.com
     udp: true
   - name: sg ovh lb
     server: api.qiscus.com
@@ -70,7 +71,7 @@ proxies:
     server: api.qiscus.com
     port: 443
     type: vmess
-    uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b
+    uuid: afef92d5-b5b9-46aa-a982-3914fe62c1c5
     alterId: 0
     cipher: auto
     tls: true
@@ -78,7 +79,7 @@ proxies:
     servername: sg1.31vpn.com
     network: ws
     ws-opts: 
-      path: /fastssh/odkskkanzwjjs/635cbbdbe418d/
+      path: /fastssh/jajsjakakzka/6367a099841d4/
       headers: 
         Host: sg1.31vpn.com
     udp: true
@@ -179,8 +180,8 @@ proxies:
       headers: 
         Host: jpl-1.herbalv2ray.me
     udp: true
-  - name: test
-    server: google.com
+  - name: kiw kiw
+    server: *edu
     port: 443
     type: vmess
     uuid: 46d46ddf-2aa4-4510-b195-9c28a3558636
