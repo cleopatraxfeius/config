@@ -63,7 +63,7 @@ proxies:
     servername: sg-lb.vhax.net
     network: ws
     ws-opts: 
-      path: /sshkit/pwosjjs/63667073559ca/
+      path: /sshkit/jwksjnsjs/636b0b803851d/
       headers: 
         Host: sg-lb.vhax.net
     udp: true
@@ -147,7 +147,7 @@ proxies:
     servername: id-lb.vhax.net
     network: ws
     ws-opts: 
-      path: /sshkit/aiajsbjajs/636671100523e/
+      path: /sshkit/ppskjsbzjj/636b0c7756e5d/
       headers: 
         Host: id-lb.vhax.net
     udp: true
