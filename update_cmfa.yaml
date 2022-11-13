@@ -1,14 +1,5 @@
 # update config
 # exp 13 November 2022
-bug:
-  - &edu api.qiscus.com
-  - &game v1-cdn.cricket.miniclippt.com
-  - &vision+ api.onesignal.com
-  - &vidio quiz.int.vidio.com
-  - &viu cfcdn.viu.com
-  - &liveon beacon.liveon.id
-  - &spotify investors.spotify.com
-  - &sushiroll www.sushiroll.com
 proxies:
   - name: sgdo herbal
     server: api.qiscus.com
