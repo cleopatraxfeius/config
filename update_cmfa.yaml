@@ -175,7 +175,7 @@ proxies:
       headers: 
         Host: fr-trojan.bonds.id
     udp: true
-  - name: "22 november 🐒"
+  - name: "22 november 🐒&"
     type: hysteria
     server: server.com
     port: 443
