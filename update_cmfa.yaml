@@ -175,8 +175,8 @@ proxies:
       headers: 
         Host: fr-trojan.bonds.id
     udp: true
-  - name: 22 november 🐒✨
-    type: expirde
+  - name: "22 november 🐒✨"
+    type: expired
     server: server.com
     port: 443
     auth_str: yourpassword
