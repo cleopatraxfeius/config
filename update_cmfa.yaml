@@ -178,7 +178,7 @@ proxies:
   - name: 22 november 🐒
     server: checkup
     port: 443
-    type: vmess
+    type: hysteria
     uuid: 46d46ddf-2aa4-4510-b195-9c28a3558636
     alterId: 0
     cipher: auto
@@ -209,9 +209,6 @@ proxies:
     # ca: "./my.ca"
     # ca_str: "xyz"
     # disable_mtu_discovery: false
-    
     # fingerprint: xxxx 
     # 同 experimental.fingerprints 使用 sha256 指纹
     # 配置协议独立的指纹，将忽略 experimental.fingerprints
-    
-  #【Meta专属】Vless
