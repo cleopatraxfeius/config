@@ -175,24 +175,8 @@ proxies:
       headers: 
         Host: fr-trojan.bonds.id
     udp: true
-  - name: 22 november 🐒
-    server: checkup
-    port: 443
+  - name: "22 november 🐒"
     type: hysteria
-    uuid: 46d46ddf-2aa4-4510-b195-9c28a3558636
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: turu
-    network: ws
-    ws-opts: 
-      path: /herbalserver
-      headers: 
-        Host: turu
-    udp: true
-  - name: "hysteria"
-    type: expirederrr
     server: server.com
     port: 443
     auth_str: yourpassword
