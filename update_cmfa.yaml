@@ -150,7 +150,7 @@ proxies:
     server: api.qiscus.com
     port: 443
     type: vmess
-    uuid: a51013fa-c655-4c47-b0cc-fd9d91421c7d
+    uuid: c5a08c44-175a-49dc-8209-bb6de31f0643
     alterId: 0
     cipher: auto
     tls: true
