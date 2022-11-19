@@ -5,7 +5,7 @@ proxies:
     server: api.qiscus.com
     port: 443
     type: vmess
-    uuid: fbba1ead-f9b6-4333-bb29-cc5a1a228007
+    uuid: 7bf9a3f9-f7b2-471b-99b2-bc1d985d02c1
     alterId: 0
     cipher: auto
     tls: true
@@ -150,7 +150,7 @@ proxies:
     server: api.qiscus.com
     port: 443
     type: vmess
-    uuid: c5a08c44-175a-49dc-8209-bb6de31f0643
+    uuid: a62c3504-bfac-44fe-986c-452a874160cb
     alterId: 0
     cipher: auto
     tls: true
