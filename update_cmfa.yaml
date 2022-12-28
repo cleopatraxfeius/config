@@ -37,17 +37,17 @@ proxies:
     server: api.qiscus.com
     port: 443
     type: vmess
-    uuid: 6c6ac850-e2f1-4600-b1fb-9aa63cfaba88
+    uuid: b225d11d-d9b4-4b76-94a1-2cb5fba5f736
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sgo-1.herbalv2ray.me
+    servername: sgo-3.herbalv2ray.me
     network: ws
-    ws-opts:
+    ws-opts: 
       path: /herbalserver
-      headers:
-        Host: sgo-1.herbalv2ray.me
+      headers: 
+        Host: sgo-3.herbalv2ray.me
     udp: true
   - name: sg ovh "howdy"
     server: api.qiscus.com
