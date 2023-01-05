@@ -1,7 +1,7 @@
 # update config
-# exp 19 Desember 2022
+# exp 13 Januari 2023
 proxies:
-  - name: sgdo "herbal"
+  - name: sgdo "herbal" ❌
     server: api.qiscus.com
     port: 443
     type: vmess
@@ -21,7 +21,7 @@ proxies:
     server: api.qiscus.com
     port: 443
     type: vmess
-    uuid: e42f2318-99fa-41be-b1fe-3e937a69a8ee
+    uuid: 7b8025e1-e44c-4728-b136-93b75685bb62
     alterId: 0
     cipher: auto
     tls: true
@@ -33,33 +33,49 @@ proxies:
       headers:
         Host: sgl-2.herbalv2ray.me
     udp: true
-  - name: sg ovh "herbal"
+  - name: sg ovh "herbal" 1st
     server: api.qiscus.com
     port: 443
     type: vmess
-    uuid: b225d11d-d9b4-4b76-94a1-2cb5fba5f736
+    uuid: b5378ad1-44e6-4223-98a0-35cad5f38b74
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sgo-2.herbalv2ray.me
+    network: ws
+    ws-opts:
+      path: /herbalserver
+      headers:
+        Host: sgo-2.herbalv2ray.me
+    udp: true
+  - name: sg ovh "herbal" 2nd
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: 0b6a1e75-ce4d-4d2c-87bb-ac2fd9b12306
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
     servername: sgo-3.herbalv2ray.me
     network: ws
-    ws-opts: 
+    ws-opts:
       path: /herbalserver
-      headers: 
+      headers:
         Host: sgo-3.herbalv2ray.me
     udp: true
   - name: sg ovh "howdy"
     server: api.qiscus.com
     port: 443
     type: trojan
-    password: 04fb23c0-7960-11ed-ba71-1239d0255272
+    password: d1b1c430-8d05-11ed-ba45-1239d0255272
     skip-cert-verify: true
     sni: sgovh-trojan.bonds.id
     network: ws
-    ws-opts:
+    ws-opts: 
       path: /howdy
-      headers:
+      headers: 
         Host: sgovh-trojan.bonds.id
     udp: true
   - name: sg lb "sshkit"
@@ -73,35 +89,35 @@ proxies:
     skip-cert-verify: true
     servername: sg-lb.vhax.net
     network: ws
-    ws-opts:
-      path: /sshkit/gdvsfdbd/6395e9abb3ccb/
-      headers:
+    ws-opts: 
+      path: /sshkit/jwjsjsnns/63b6e0e577855/
+      headers: 
         Host: sg-lb.vhax.net
     udp: true
   - name: id herza "howdy"
     server: api.qiscus.com
     port: 443
     type: trojan
-    password: cff61e80-7960-11ed-a0bb-1239d0255272
+    password: 078fdb40-8d06-11ed-9bd8-1239d0255272
     skip-cert-verify: true
     sni: idtj-herza.bonds.id
     network: ws
-    ws-opts:
+    ws-opts: 
       path: /howdy
-      headers:
+      headers: 
         Host: idtj-herza.bonds.id
     udp: true
   - name: id ikd "howdy"
     server: api.qiscus.com
     port: 443
     type: trojan
-    password: 3fe96390-7961-11ed-8525-1239d0255272
+    password: 356a17f0-8d06-11ed-959d-1239d0255272
     skip-cert-verify: true
     sni: idtj-ikd.bonds.id
     network: ws
-    ws-opts:
+    ws-opts: 
       path: /howdy
-      headers:
+      headers: 
         Host: idtj-ikd.bonds.id
     udp: true
   - name: id lb "sshkit"
@@ -115,12 +131,12 @@ proxies:
     skip-cert-verify: true
     servername: id-lb.vhax.net
     network: ws
-    ws-opts:
-      path: /sshkit/gfvdxbd/6395eb3a74a11/
-      headers:
+    ws-opts: 
+      path: /sshkit/flasnzmmz/63b6e16f0dbeb/
+      headers: 
         Host: id-lb.vhax.net
     udp: true
-  - name: jp linode "herbal"
+  - name: jp linode "herbal" ❌
     server: api.qiscus.com
     port: 443
     type: vmess
@@ -140,7 +156,7 @@ proxies:
     server: api.qiscus.com
     port: 443
     type: vmess
-    uuid: 2c74ef6a-dc3a-4c57-a2ae-861a2825f1e9
+    uuid: 9a197f29-dcf5-42b7-92dc-0530ffe50d41
     alterId: 0
     cipher: auto
     tls: true
@@ -156,16 +172,16 @@ proxies:
     server: api.qiscus.com
     port: 443
     type: trojan
-    password: 0819df90-7962-11ed-9e8d-1239d0255272
+    password: 6a45f250-8d06-11ed-a485-1239d0255272
     skip-cert-verify: true
     sni: br1-trojan.bonds.id
     network: ws
-    ws-opts:
+    ws-opts: 
       path: /howdy
-      headers:
+      headers: 
         Host: br1-trojan.bonds.id
     udp: true
-  - name: "19 desember 🐒✨"
+  - name: "13 januari 🐒✨"
     type: hysteria
     server: server.com
     port: 443
