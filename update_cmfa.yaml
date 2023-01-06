@@ -1,5 +1,8 @@
+# update config
+# 13 Januari 2023
+
 proxies:
-  - name: sgdo "herbal"
+  - name: sgdo "herbal" ❌
     server: api.qiscus.com
     port: 443
     type: vmess
