@@ -182,24 +182,3 @@ proxies:
       headers: 
         Host: br1-trojan.bonds.id
     udp: true
-  - name: "13 januari 🐒✨"
-    type: hysteria
-    server: server.com
-    port: 443
-    auth_str: yourpassword
-    # obfs: yourpassword
-    alpn: h3
-    protocol: udp          #支持udp/wechat-video/faketcp
-    up: '30 Mbps'          #若不写单位，默认为Mbps
-    down: '200 Mbps'       #若不写单位，默认为Mbps
-    # sni: server.com
-    # skip-cert-verify: false
-    # recv_window_conn: 12582912
-    # recv_window: 52428800
-    # auth_str: "yubiyubi"
-    # ca: "./my.ca"
-    # ca_str: "xyz"
-    # disable_mtu_discovery: false
-    # fingerprint: xxxx 
-    # 同 experimental.fingerprints 使用 sha256 指纹
-    # 配置协议独立的指纹，将忽略 experimental.fingerprints
