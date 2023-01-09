@@ -1,0 +1,133 @@
+#v2ray & trojan update
+
+#exp 17-01-2023 (herbal)
+#exp 16-10-2023 (sshkit)
+#limited for account (howdy)
+
+##############################################
+
+#sgdo-herbal
+
+vmess://ewoidiI6IjIiLAoicHMiOiJzeHRjcC1ncmdmZ2ZkYmYiLAoiYWRkIjoiamoiLAoicG9ydCI6IjQ0MyIsCiJpZCI6ImUxODUzNDdjLTE3MjctNGQ2Ni1hNzlmLTZlMzg2YmU5NDZlZSIsCiJhaWQiOiIwIiwKIm5ldCI6IndzIiwKInBhdGgiOiIvaGVyYmFsc2VydmVyIiwKInR5cGUiOiJub25lIiwKImhvc3QiOiJzZ2RvLTEuaGVyYmFsdjJyYXkubWUiLAoidGxzIjoidGxzIgp9Cg==
+
+vmess://ewoidiI6IjIiLAoicHMiOiJzeHRjcC1odGhkaGIiLAoiYWRkIjoiamoiLAoicG9ydCI6IjQ0MyIsCiJpZCI6ImEzYzQ4YjQ5LTI0NDctNGQzOC05MzE0LTBhYmVkNmMzZGVhOSIsCiJhaWQiOiIwIiwKIm5ldCI6IndzIiwKInBhdGgiOiIvaGVyYmFsc2VydmVyIiwKInR5cGUiOiJub25lIiwKImhvc3QiOiJzZ2RvLTEuaGVyYmFsdjJyYXkubWUiLAoidGxzIjoidGxzIgp9Cg==
+
+
+#sglinode-herbal
+
+- server-2
+
+vmess://ewoidiI6IjIiLAoicHMiOiJzeHRjcC1odGJmeGJkIiwKImFkZCI6ImpqIiwKInBvcnQiOiI0NDMiLAoiaWQiOiI3NzU1MWM1Mi02MjJkLTRjYTctODZjYy02N2NmNDlhNDJlYjkiLAoiYWlkIjoiMCIsCiJuZXQiOiJ3cyIsCiJwYXRoIjoiL2hlcmJhbHNlcnZlciIsCiJ0eXBlIjoibm9uZSIsCiJob3N0Ijoic2dsLTIuaGVyYmFsdjJyYXkubWUiLAoidGxzIjoidGxzIgp9Cg==
+
+
+#sgovh-herbal
+
+- server-2
+
+vmess://ewoidiI6IjIiLAoicHMiOiJzeHRjcC1mcnJnZnMiLAoiYWRkIjoiamoiLAoicG9ydCI6IjQ0MyIsCiJpZCI6Ijk3MzkzZGFiLWYwZTAtNGFhMS1hZjNiLWEzODBiNTU4MzVhOCIsCiJhaWQiOiIwIiwKIm5ldCI6IndzIiwKInBhdGgiOiIvaGVyYmFsc2VydmVyIiwKInR5cGUiOiJub25lIiwKImhvc3QiOiJzZ28tMi5oZXJiYWx2MnJheS5tZSIsCiJ0bHMiOiJ0bHMiCn0K
+
+
+- server-3
+
+vmess://ewoidiI6IjIiLAoicHMiOiJzeHRjcC1ncnNnZnhkIiwKImFkZCI6ImpqIiwKInBvcnQiOiI0NDMiLAoiaWQiOiI5YjUxY2UyNS1lZjUyLTQ1NWItYjExNi00NzhjMWE3OWE5YjEiLAoiYWlkIjoiMCIsCiJuZXQiOiJ3cyIsCiJwYXRoIjoiL2hlcmJhbHNlcnZlciIsCiJ0eXBlIjoibm9uZSIsCiJob3N0Ijoic2dvLTMuaGVyYmFsdjJyYXkubWUiLAoidGxzIjoidGxzIgp9Cg==
+
+vmess://ewoidiI6IjIiLAoicHMiOiJzeHRjcC16amZlaXZkc2R2cyIsCiJhZGQiOiJqaiIsCiJwb3J0IjoiNDQzIiwKImlkIjoiMmVjYzM4ZGUtNmI2ZS00NTQ0LTllOTItNmQyMjMyYTdhZmFmIiwKImFpZCI6IjAiLAoibmV0Ijoid3MiLAoicGF0aCI6Ii9oZXJiYWxzZXJ2ZXIiLAoidHlwZSI6Im5vbmUiLAoiaG9zdCI6InNnby0zLmhlcmJhbHYycmF5Lm1lIiwKInRscyI6InRscyIKfQo=
+
+
+#jplinode-herbal
+
+vmess://ewoidiI6IjIiLAoicHMiOiJzeHRjcC1iaGZjamR2cyIsCiJhZGQiOiJqaiIsCiJwb3J0IjoiNDQzIiwKImlkIjoiYTMwZmFlNDctNGU3MC00Y2RhLWExNmItY2VmN2IzMWY3ZDE4IiwKImFpZCI6IjAiLAoibmV0Ijoid3MiLAoicGF0aCI6Ii9oZXJiYWxzZXJ2ZXIiLAoidHlwZSI6Im5vbmUiLAoiaG9zdCI6ImpwbC0xLmhlcmJhbHYycmF5Lm1lIiwKInRscyI6InRscyIKfQo=
+
+vmess://ewoidiI6IjIiLAoicHMiOiJzeHRjcC12ZHNic2JmcyIsCiJhZGQiOiJqaiIsCiJwb3J0IjoiNDQzIiwKImlkIjoiNTU2OGE0N2ItMzY0Ni00YmViLWEyZWMtZTNhMDg4YzE5MzZjIiwKImFpZCI6IjAiLAoibmV0Ijoid3MiLAoicGF0aCI6Ii9oZXJiYWxzZXJ2ZXIiLAoidHlwZSI6Im5vbmUiLAoiaG9zdCI6ImpwbC0xLmhlcmJhbHYycmF5Lm1lIiwKInRscyI6InRscyIKfQo=
+
+
+#uslinode-herbal
+
+vmess://ewoidiI6IjIiLAoicHMiOiJzeHRjcC1xZXZzdmZzIiwKImFkZCI6ImpqIiwKInBvcnQiOiI0NDMiLAoiaWQiOiI2MzQ5MmFhYi05NDk0LTRiN2QtODIwYy00Njc4NGIxZDBjZjciLAoiYWlkIjoiMCIsCiJuZXQiOiJ3cyIsCiJwYXRoIjoiL2hlcmJhbHNlcnZlciIsCiJ0eXBlIjoibm9uZSIsCiJob3N0IjoidXNsLTEuaGVyYmFsdjJyYXkubWUiLAoidGxzIjoidGxzIgp9Cg==
+
+vmess://ewoidiI6IjIiLAoicHMiOiJzeHRjcC1sZ2RiZHhiIiwKImFkZCI6ImpqIiwKInBvcnQiOiI0NDMiLAoiaWQiOiJlMzVjNWNmMC03MzI5LTRlZmEtYTk0Ny1kNmNmMGVjZGVlODciLAoiYWlkIjoiMCIsCiJuZXQiOiJ3cyIsCiJwYXRoIjoiL2hlcmJhbHNlcnZlciIsCiJ0eXBlIjoibm9uZSIsCiJob3N0IjoidXNsLTEuaGVyYmFsdjJyYXkubWUiLAoidGxzIjoidGxzIgp9Cg==
+
+##############################################
+
+#id-sshkit loadbalance
+
+vmess://eyJhZGQiOiJpZC1sYi52aGF4Lm5ldCIsImFpZCI6IjAiLCJpZCI6IjZmZWExNjQ5LTQyNWItNDA5Mi1iZjUzLTI5NzkyMTUyYzkyNSIsImhvc3QiOiJqaiIsIm5ldCI6IndzIiwicGF0aCI6Ii9zc2hraXQvZ3JiZmRici82M2JjMjgwZTU5NDUwLyIsInBvcnQiOiI0NDMiLCJwcyI6ImlkLWxiLnZoYXgubmV0IiwidGxzIjoidGxzIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
+
+vmess://eyJhZGQiOiJpZC1sYi52aGF4Lm5ldCIsImFpZCI6IjAiLCJpZCI6IjZmZWExNjQ5LTQyNWItNDA5Mi1iZjUzLTI5NzkyMTUyYzkyNSIsImhvc3QiOiJqaiIsIm5ldCI6IndzIiwicGF0aCI6Ii9zc2hraXQvdGhiZnNiZnNlLzYzYmMyODYzNTBkZGYvIiwicG9ydCI6IjQ0MyIsInBzIjoiaWQtbGIudmhheC5uZXQiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
+
+
+#sg-sshkit loadbalance
+
+vmess://eyJhZGQiOiJzZy1sYi52aGF4Lm5ldCIsImFpZCI6IjAiLCJpZCI6IjZmZWExNjQ5LTQyNWItNDA5Mi1iZjUzLTI5NzkyMTUyYzkyNSIsImhvc3QiOiJqaiIsIm5ldCI6IndzIiwicGF0aCI6Ii9zc2hraXQvcmVoZmJyZWQvNjNiYzI4OWQ3YzY5MS8iLCJwb3J0IjoiNDQzIiwicHMiOiJzZy1sYi52aGF4Lm5ldCIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+
+vmess://eyJhZGQiOiJzZy1sYi52aGF4Lm5ldCIsImFpZCI6IjAiLCJpZCI6IjZmZWExNjQ5LTQyNWItNDA5Mi1iZjUzLTI5NzkyMTUyYzkyNSIsImhvc3QiOiJqaiIsIm5ldCI6IndzIiwicGF0aCI6Ii9zc2hraXQvZ3RiZmR0YmUvNjNiYzI4YzQzZTlkMC8iLCJwb3J0IjoiNDQzIiwicHMiOiJzZy1sYi52aGF4Lm5ldCIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+
+##############################################
+
+#sgovh-howdy 15-gb
+
+trojan://65085d50-9029-11ed-9e6b-1239d0255272@jj:443/?sni=sgovh-trojan.bonds.id&type=ws&host=sgovh-trojan.bonds.id&path=%2Fhowdy
+
+trojan://9e861d80-9029-11ed-b3ab-1239d0255272@jj:443/?sni=sgovh-trojan.bonds.id&type=ws&host=sgovh-trojan.bonds.id&path=%2Fhowdy
+
+
+#sghe-howdy 15-gb server id
+
+- sghe-mux
+
+trojan://f8720300-902c-11ed-ab30-1239d0255272@jj:443/?sni=sg6-trojan.bonds.id&type=ws&host=sg6-trojan.bonds.id&path=%2Fhowdy
+
+trojan://40070100-902d-11ed-b974-1239d0255272@jj:443/?sni=sg6-trojan.bonds.id&type=ws&host=sg6-trojan.bonds.id&path=%2Fhowdy
+
+- sghe-1
+
+trojan://0d8f4fa0-902f-11ed-938f-1239d0255272@jj:443/?sni=sg1-trojan.bonds.id&type=ws&host=sg1-trojan.bonds.id&path=%2Fhowdy
+
+trojan://299dbbe0-902f-11ed-953b-1239d0255272@jj:443/?sni=sg1-trojan.bonds.id&type=ws&host=sg1-trojan.bonds.id&path=%2Fhowdy
+
+- sghe-2
+
+trojan://93813020-902d-11ed-9a9f-1239d0255272@jj:443/?sni=sg2-trojan.bonds.id&type=ws&host=sg2-trojan.bonds.id&path=%2Fhowdy
+
+trojan://b368a510-902d-11ed-8f86-1239d0255272@jj:443/?sni=sg2-trojan.bonds.id&type=ws&host=sg2-trojan.bonds.id&path=%2Fhowdy
+
+- sghe-3
+
+trojan://d4339460-902d-11ed-9c65-1239d0255272@jj:443/?sni=sg3-trojan.bonds.id&type=ws&host=sg3-trojan.bonds.id&path=%2Fhowdy
+
+trojan://eafd9b70-902d-11ed-92a7-1239d0255272@jj:443/?sni=sg3-trojan.bonds.id&type=ws&host=sg3-trojan.bonds.id&path=%2Fhowdy
+
+
+#sgdualstack-howdy 30-gb
+
+trojan://8ab92a30-902f-11ed-ab64-1239d0255272@jj:443/?sni=sg-atha.bonds.id&type=ws&host=sg-atha.bonds.id&path=%2Fhowdy
+
+trojan://b1231100-902f-11ed-882e-1239d0255272@jj:443/?sni=sg-atha.bonds.id&type=ws&host=sg-atha.bonds.id&path=%2Fhowdy
+
+
+#idherza-howdy 15-gb
+
+trojan://f0d0dce0-9029-11ed-910c-1239d0255272@jj:443/?sni=idtj-herza.bonds.id&type=ws&host=idtj-herza.bonds.id&path=%2Fhowdy
+
+trojan://0c87e110-902a-11ed-86fc-1239d0255272@jj:443/?sni=idtj-herza.bonds.id&type=ws&host=idtj-herza.bonds.id&path=%2Fhowdy
+
+
+#idikd-howdy 20-gb
+
+trojan://99b6afd0-902e-11ed-bc21-1239d0255272@jj:443/?sni=idtj-ikd.bonds.id&type=ws&host=idtj-ikd.bonds.id&path=%2Fhowdy
+
+trojan://c92fdcc0-902e-11ed-afae-1239d0255272@jj:443/?sni=idtj-ikd.bonds.id&type=ws&host=idtj-ikd.bonds.id&path=%2Fhowdy
+
+
+#brazil-howdy 10-gb
+
+trojan://394d1b90-902a-11ed-94cd-1239d0255272@jj:443/?sni=br1-trojan.bonds.id&type=ws&host=br1-trojan.bonds.id&path=%2Fhowdy
+
+trojan://54759ff0-902a-11ed-9841-1239d0255272@jj:443/?sni=br1-trojan.bonds.id&type=ws&host=br1-trojan.bonds.id&path=%2Fhowdy
+
+##############################################
+
+
+
+
+
