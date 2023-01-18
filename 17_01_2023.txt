@@ -127,7 +127,7 @@ trojan://54759ff0-902a-11ed-9841-1239d0255272@jj:443/?sni=br1-trojan.bonds.id&ty
 
 ##############################################
 
-
+vless://6787c8a1-e3b0-49d5-bcea-097d7265d39e@sgm1ray.serverip.my.id:443?path=/serverssh&security=tls&encryption=none&host=sgm1ray.serverip.my.id&type=ws&sni=jjjj#serverssh-pruieve
 
 
 
