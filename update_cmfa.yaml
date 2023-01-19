@@ -25,7 +25,7 @@ proxies:
       headers:
         Host: sgx-3.openv2ray.com
     udp: true
-    - name: sshocean-grssgrsdg
+  - name: sshocean-grssgrsdg
     server: api.qiscus.com
     port: 443
     type: vless
