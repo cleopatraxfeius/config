@@ -25,6 +25,36 @@ proxies:
       headers:
         Host: sgx-3.openv2ray.com
     udp: true
+  - name: sshocean-grssgrsdg
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: 52b2df91-c963-49d9-a040-7227296d10ee
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg1-ctb-ws.xvless.xyz
+    udp: true
+  - name: sshocean-hdxsfsb
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: a2e71db9-4bc6-44cf-8bc6-d917a5b5f274
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sgovh1-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sgovh1-ws.xvless.xyz
+    udp: true
   - name: id herza
     server: api.qiscus.com
     port: 443
