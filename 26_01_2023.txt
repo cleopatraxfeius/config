@@ -1,0 +1,247 @@
+jam reset vpn :
+
+- fastssh.com - 00.00 am & 12.00 pm
+- sshocean.com - 00.00 am & 12.00 pm
+- opentunnel.net - 08.00 pm
+- herbalserver.me - 09.00 pm
+- sshmax.net - 00.01 am
+- serverssh.net - 00.00 am & 12.00 pm // 30 days ready
+- jagoanssh.com - 10.00 am & 10.00 pm // 30 days ready in sg trojan go
+- mainssh.com - 00.00 am & 12.00 pm
+- jupitervpn - belum nyoba... 11.00 pm
+- sshkit - no reset
+- howdy - no reset
+- sshstores - belum nyoba... 00.00 am & 120.00 pm // 30 days ready 
+
+*note :
+- sshocean,opentunnel, belum sepenuhnya dicoba
+
+##################################################################
+
+#opentunnel
+
+// v2ray
+
+- sg-2
+vmess://eyJhZGQiOiJzZ3YtMy5vcGVudjJyYXkuY29tIiwiYWlkIjoiMTYiLCJob3N0IjoiampqIiwiaWQiOiJhNDBkMzRjNi1iNzdjLTQ2NDgtOTIxMC0zZThkMmY0MjI2YjUiLCJuZXQiOiJ3cyIsInBhdGgiOiIvb3BlbnR1bm5lbD91c2VyPW9wZW50dW5uZWwubmV0LXJzaHNoc2giLCJwb3J0IjoiNDQzIiwicHMiOiJvcGVudHVubmVsLm5ldC1yc2hzaHNoIiwidGxzIjoidGxzIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
+
+- id
+vmess://eyJhZGQiOiJpZHYtMS5vcGVudjJyYXkuY29tIiwiYWlkIjoiMTYiLCJob3N0IjoiampqIiwiaWQiOiJhNDBkMzRjNi1iNzdjLTQ2NDgtOTIxMC0zZThkMmY0MjI2YjUiLCJuZXQiOiJ3cyIsInBhdGgiOiIvb3BlbnR1bm5lbD91c2VyPW9wZW50dW5uZWwubmV0LXlyaGZkaGRoZCIsInBvcnQiOiI0NDMiLCJwcyI6Im9wZW50dW5uZWwubmV0LXlyaGZkaGRoZCIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+
+// xray
+
+- sg-2
+vless://4f17e173-4af9-5041-9662-f6c27e0decfd@sgx-3.openv2ray.com:443?encryption=none&security=tls&type=ws&host=jjj&path=%2fopentunnel%3fuser%3dopentunnel.net-jtdchd#opentunnel.net-jtdchd
+
+- id
+vless://4f17e173-4af9-5041-9662-f6c27e0decfd@idx-1.openv2ray.com:443?encryption=none&security=tls&type=ws&host=jjj&path=%2fopentunnel%3fuser%3dopentunnel.net-esvsvsv#opentunnel.net-esvsvsv
+
+// trojan
+
+- sg
+trojan://opentunnel.net-rvgsvse@sgt-2.opensvr.net:443?sni=jjj#opentunnel.net-rvgsvse
+
+- id
+trojan://opentunnel.net-pdgfbhd@idt-1.opensvr.net:443?sni=jjj#opentunnel.net-pdgfbhd
+
+##################################################################
+
+#sshocean
+
+// xray-vless-ws
+
+- sgcontabo
+vless://52b2df91-c963-49d9-a040-7227296d10ee@jjj:443?path=%2Fwebsocket&security=tls&encryption=none&host=sg1-ctb-ws.xvless.xyz&type=ws&sni=sg1-ctb-ws.xvless.xyz#sshocean-grssgrsdg
+
+- sgovh
+vless://a2e71db9-4bc6-44cf-8bc6-d917a5b5f274@jjj:443?path=%2Fwebsocket&security=tls&encryption=none&host=sgovh1-ws.xvless.xyz&type=ws&sni=sgovh1-ws.xvless.xyz#sshocean-hdxsfsb
+
+- id
+vless://d96e485b-f374-4aa0-a651-f86aee3877a5@jjj:443?path=%2Fwebsocket&security=tls&encryption=none&host=id1-ws.xvless.xyz&type=ws&sni=id1-ws.xvless.xyz#sshocean-grsgsgs
+
+##################################################################
+
+#howdy
+
+// trojan (quota limit)
+
+- idherza
+trojan://9ee57890-9792-11ed-8594-1239d0255272@jj:443/?sni=idtj-herza.bonds.id&type=ws&host=idtj-herza.bonds.id&path=%2Fhowdy
+
+- idikd
+trojan://28f7b390-9793-11ed-9921-1239d0255272@jj:443/?sni=idtj-ikd.bonds.id&type=ws&host=idtj-ikd.bonds.id&path=%2Fhowdy
+
+- sgovh
+trojan://703bdcb0-9792-11ed-8640-1239d0255272@jj:443/?sni=sgovh-trojan.bonds.id&type=ws&host=sgovh-trojan.bonds.id&path=%2Fhowdy
+
+- sghe-1&3
+trojan://d7a84560-9792-11ed-a2de-1239d0255272@jj:443/?sni=sg1-trojan.bonds.id&type=ws&host=sg1-trojan.bonds.id&path=%2Fhowdy
+trojan://fd581800-9792-11ed-a7e9-1239d0255272@jj:443/?sni=sg3-trojan.bonds.id&type=ws&host=sg3-trojan.bonds.id&path=%2Fhowdy
+
+- brazil
+trojan://50f608b0-9793-11ed-a541-1239d0255272@jj:443/?sni=br1-trojan.bonds.id&type=ws&host=br1-trojan.bonds.id&path=%2Fhowdy
+
+##################################################################
+
+#sshkit
+
+- sgovhlb
+vmess://eyJhZGQiOiJzZy1sYi52aGF4Lm5ldCIsImFpZCI6IjAiLCJpZCI6IjZmZWExNjQ5LTQyNWItNDA5Mi1iZjUzLTI5NzkyMTUyYzkyNSIsImhvc3QiOiJ5dGdoYmQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3Noa2l0L3RydGdzdGdyeWUvNjNjODkwODZlZmIyZi8iLCJwb3J0IjoiNDQzIiwicHMiOiJzZy1sYi52aGF4Lm5ldCIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+vmess://eyJhZGQiOiJzZy1sYi52aGF4Lm5ldCIsImFpZCI6IjAiLCJpZCI6IjZmZWExNjQ5LTQyNWItNDA5Mi1iZjUzLTI5NzkyMTUyYzkyNSIsImhvc3QiOiJ5dGdoYmQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3Noa2l0L3B0cnlyZnN4aHMvNjNjODkxMzcyM2JiNi8iLCJwb3J0IjoiNDQzIiwicHMiOiJzZy1sYi52aGF4Lm5ldCIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+
+- idbiznetlb
+vmess://eyJhZGQiOiJpZC1sYi52aGF4Lm5ldCIsImFpZCI6IjAiLCJpZCI6IjZmZWExNjQ5LTQyNWItNDA5Mi1iZjUzLTI5NzkyMTUyYzkyNSIsImhvc3QiOiJ5dGdoYmQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3Noa2l0L3l0ZHJkamRkaGQvNjNjODkwZWVhYTJkMC8iLCJwb3J0IjoiNDQzIiwicHMiOiJpZC1sYi52aGF4Lm5ldCIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+vmess://eyJhZGQiOiJpZC1sYi52aGF4Lm5ldCIsImFpZCI6IjAiLCJpZCI6IjZmZWExNjQ5LTQyNWItNDA5Mi1iZjUzLTI5NzkyMTUyYzkyNSIsImhvc3QiOiJ5dGdoYmQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3Noa2l0L3Vyc2hmaHNkeGgvNjNjODkxN2M5ZWViZS8iLCJwb3J0IjoiNDQzIiwicHMiOiJpZC1sYi52aGF4Lm5ldCIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+
+##################################################################
+
+#sshstores
+
+- sg-1
+vmess://eyJ2IjogIjIiLCJwcyI6ICJncmdmaHNoIiwiYWRkIjogInNnLnZtZXNzMS54c2VydnMueHl6IiwicG9ydCI6IDQ0MywiaWQiOiAiMzhkZjY2MGQtNTcxOC00OTc5LTk1MDctY2ExZjIwMGNhNzU4IiwiYWlkIjogIjAiLCJuZXQiOiAid3MiLCJ0eXBlIjogIm5vbmUiLCJob3N0IjogImpqaiIsInNuaSI6ICJqamoiLCJwYXRoIjogIi92bWVzcyIsInRscyI6ICJ0bHMifQ
+vmess://eyJ2IjogIjIiLCJwcyI6ICJmcnNzcnJ2cnMiLCJhZGQiOiAic2cudm1lc3MxLnhzZXJ2cy54eXoiLCJwb3J0IjogNDQzLCJpZCI6ICJiNDU4ZDczYy0wNjNjLTQ3Y2MtYWY3NS03MTg2ZTc2MmNiZDEiLCJhaWQiOiAiMCIsIm5ldCI6ICJ3cyIsInR5cGUiOiAibm9uZSIsImhvc3QiOiAiampqaiIsInNuaSI6ICJqampqIiwicGF0aCI6ICIvdm1lc3MiLCJ0bHMiOiAidGxzIn0
+
+- sg-2
+vmess://eyJ2IjogIjIiLCJwcyI6ICJnZWdkZ2UiLCJhZGQiOiAic2cudm1lc3MyLnhzZXJ2cy54eXoiLCJwb3J0IjogNDQzLCJpZCI6ICJhY2FkNDBmNC1jZTdkLTQzODgtYjIwYi1lMDkwMTFhY2MwMzkiLCJhaWQiOiAiMCIsIm5ldCI6ICJ3cyIsInR5cGUiOiAibm9uZSIsImhvc3QiOiAiampqamoiLCJzbmkiOiAiampqamoiLCJwYXRoIjogIi92bWVzcyIsInRscyI6ICJ0bHMifQ
+
+- id-1
+vmess://eyJ2IjogIjIiLCJwcyI6ICJncmZnZnNnZGgiLCJhZGQiOiAiaWQudm1lc3MxLnhzZXJ2cy54eXoiLCJwb3J0IjogIjQ0MyIsImlkIjogIjA4MGU2YmNmLWU5YTUtNDNhZi1hNWNiLTljYzVhZmU5YTc0MiIsImFpZCI6ICIwIiwibmV0IjogIndzIiwidHlwZSI6ICJub25lIiwiaG9zdCI6ICJqamoiLCJzbmkiOiAiampqIiwicGF0aCI6ICIvdm1lc3MiLCJ0bHMiOiAidGxzIn0
+
+- id-2
+vmess://eyJ2IjogIjIiLCJwcyI6ICJmcmJmZGJkIiwiYWRkIjogImlkLnZtZXNzMi54c2VydnMueHl6IiwicG9ydCI6ICI0NDMiLCJpZCI6ICIxZWE0ZDhkYi1mZGY4LTRjNDQtOWMzOS0yMDU4ZTFkMWE5MjUiLCJhaWQiOiAiMCIsIm5ldCI6ICJ3cyIsInR5cGUiOiAibm9uZSIsImhvc3QiOiAiampqIiwic25pIjogImpqaiIsInBhdGgiOiAiL3ZtZXNzIiwidGxzIjogInRscyJ9
+
+##################################################################
+
+#serverssh
+
+// vmess
+
+- sg-1
+vmess://eyJhZGQiOiAic2cxcmF5LnNlcnZlcmlwLm15LmlkIiwgImhvc3QiOiAic2cxcmF5LnNlcnZlcmlwLm15LmlkIiwgImFpZCI6IDAsICJ0eXBlIjogIiIsICJwYXRoIjogIi9zZXJ2ZXJzc2gubmV0IiwgIm5ldCI6ICJ3cyIsICJwcyI6ICJzZXJ2ZXJzc2gtZnJnZ3NndmUiLCAidGxzIjogInRscyIsInNuaSI6ICJqampqIiwgInR5cGUiOiAibm9uZSIsICJwb3J0IjogIjQ0MyIsICJ2IjogIjIiLCAiaWQiOiAiOTAwOWE1OTAtMGUwNC00MzRmLTkyZjQtYzRmNjk0NDRiNDE1In0=
+
+-sg-2
+vmess://eyJhZGQiOiAic2cycmF5LnNlcnZlcmlwLm15LmlkIiwgImhvc3QiOiAic2cycmF5LnNlcnZlcmlwLm15LmlkIiwgImFpZCI6IDAsICJ0eXBlIjogIiIsICJwYXRoIjogIi9zZXJ2ZXJzc2gubmV0IiwgIm5ldCI6ICJ3cyIsICJwcyI6ICJzZXJ2ZXJzc2gtaGVmcmdlc2ciLCAidGxzIjogInRscyIsInNuaSI6ICJqampqIiwgInR5cGUiOiAibm9uZSIsICJwb3J0IjogIjQ0MyIsICJ2IjogIjIiLCAiaWQiOiAiOTc0YWZkMWEtNGQ3NC00Zjg5LTgyMDMtOTcyOWIzYmU2ZjczIn0=
+
+- sg 30 day
+empty/not yet
+
+// vless
+
+- sg-1
+vless://909668a7-dd0f-4235-baff-8d18978806da@sg1ray.serverip.my.id:443?path=/serverssh&security=tls&encryption=none&host=sg1ray.serverip.my.id&type=ws&sni=rreg#serverssh-wsygrsgf
+
+- sg-2
+vless://fbf51fd2-93d9-43dd-9a99-fe2d677a8304@sg2ray.serverip.my.id:443?path=/serverssh&security=tls&encryption=none&host=sg2ray.serverip.my.id&type=ws&sni=jjjj#serverssh-htdbfss
+
+- sg 30 day (18-feb-2023)
+vless://6787c8a1-e3b0-49d5-bcea-097d7265d39e@sgm1ray.serverip.my.id:443?path=/serverssh&security=tls&encryption=none&host=sgm1ray.serverip.my.id&type=ws&sni=jjjj#serverssh-pruieve
+empty/not yet
+besok ganti...
+
+##################################################################
+
+#exp 26/01
+#herbalserver
+
+- sgdo
+vmess://ewoidiI6IjIiLAoicHMiOiJzeHRjcC1ndHJnaHNndyIsCiJhZGQiOiJqaiIsCiJwb3J0IjoiNDQzIiwKImlkIjoiZmEwYzMzZjItMTFhNi00Y2E2LThjNDAtN2FhNTU0NjRkNDU4IiwKImFpZCI6IjAiLAoibmV0Ijoid3MiLAoicGF0aCI6Ii9oZXJiYWxzZXJ2ZXIiLAoidHlwZSI6Im5vbmUiLAoiaG9zdCI6InNnZG8tMS5oZXJiYWx2MnJheS5tZSIsCiJ0bHMiOiJ0bHMiCn0K
+vmess://ewoidiI6IjIiLAoicHMiOiJzeHRjcC1lZ3JnZnNiZCIsCiJhZGQiOiJqaiIsCiJwb3J0IjoiNDQzIiwKImlkIjoiZTE2NmM4Y2YtNTAxMy00YTEyLThjOTMtZGFmOWEwMjhiMzhlIiwKImFpZCI6IjAiLAoibmV0Ijoid3MiLAoicGF0aCI6Ii9oZXJiYWxzZXJ2ZXIiLAoidHlwZSI6Im5vbmUiLAoiaG9zdCI6InNnZG8tMS5oZXJiYWx2MnJheS5tZSIsCiJ0bHMiOiJ0bHMiCn0K
+
+- sg linode 1
+vmess://ewoidiI6IjIiLAoicHMiOiJzeHRjcC1yZ2dmc2dyYnMiLAoiYWRkIjoiamoiLAoicG9ydCI6IjQ0MyIsCiJpZCI6IjU3MDlkNjgwLWJmODctNDBhMy04ODg1LTYzNDkyZWJjNTU4YSIsCiJhaWQiOiIwIiwKIm5ldCI6IndzIiwKInBhdGgiOiIvaGVyYmFsc2VydmVyIiwKInR5cGUiOiJub25lIiwKImhvc3QiOiJzZ2wtMS5oZXJiYWx2MnJheS5tZSIsCiJ0bHMiOiJ0bHMiCn0K
+vmess://ewoidiI6IjIiLAoicHMiOiJzeHRjcC1uZ2dkYnNmYiIsCiJhZGQiOiJqaiIsCiJwb3J0IjoiNDQzIiwKImlkIjoiMjU1Yzc0NjktMzgzNC00NDIzLThiNzctOWM4YTA4YWRhYjQyIiwKImFpZCI6IjAiLAoibmV0Ijoid3MiLAoicGF0aCI6Ii9oZXJiYWxzZXJ2ZXIiLAoidHlwZSI6Im5vbmUiLAoiaG9zdCI6InNnbC0xLmhlcmJhbHYycmF5Lm1lIiwKInRscyI6InRscyIKfQo=
+
+- sg linode 2
+vmess://ewoidiI6IjIiLAoicHMiOiJzeHRjcC1mdHJnZmd2ZWciLAoiYWRkIjoiamoiLAoicG9ydCI6IjQ0MyIsCiJpZCI6IjAyNjU0NmFhLTFiOGItNDYyMC1hNzA0LTk1NjQ4ZDIyZDg3ZiIsCiJhaWQiOiIwIiwKIm5ldCI6IndzIiwKInBhdGgiOiIvaGVyYmFsc2VydmVyIiwKInR5cGUiOiJub25lIiwKImhvc3QiOiJzZ2wtMi5oZXJiYWx2MnJheS5tZSIsCiJ0bHMiOiJ0bHMiCn0K
+
+- uslinode
+vmess://ewoidiI6IjIiLAoicHMiOiJzeHRjcC1oeWhkdGdlIiwKImFkZCI6ImpqIiwKInBvcnQiOiI0NDMiLAoiaWQiOiJlNTRjMTRlMS1kNmNiLTQzY2YtOGJmMC01NWE3YjRjMzNkNDkiLAoiYWlkIjoiMCIsCiJuZXQiOiJ3cyIsCiJwYXRoIjoiL2hlcmJhbHNlcnZlciIsCiJ0eXBlIjoibm9uZSIsCiJob3N0IjoidXNsLTEuaGVyYmFsdjJyYXkubWUiLAoidGxzIjoidGxzIgp9Cg==
+vmess://ewoidiI6IjIiLAoicHMiOiJzeHRjcC1tZ2JzZmJiZCIsCiJhZGQiOiJqaiIsCiJwb3J0IjoiNDQzIiwKImlkIjoiOGIwMWIwOWEtYjRlNC00ODk4LTgwNjItOTI2NzM1ZjY3ZGEzIiwKImFpZCI6IjAiLAoibmV0Ijoid3MiLAoicGF0aCI6Ii9oZXJiYWxzZXJ2ZXIiLAoidHlwZSI6Im5vbmUiLAoiaG9zdCI6InVzbC0xLmhlcmJhbHYycmF5Lm1lIiwKInRscyI6InRscyIKfQo=
+
+- jplinode
+vmess://ewoidiI6IjIiLAoicHMiOiJzeHRjcC1xcmVnZHNncyIsCiJhZGQiOiJqaiIsCiJwb3J0IjoiNDQzIiwKImlkIjoiN2JmOWNiNjYtNDc3YS00OTEzLTk3MjQtYWQ4NjVkMDdlMGQyIiwKImFpZCI6IjAiLAoibmV0Ijoid3MiLAoicGF0aCI6Ii9oZXJiYWxzZXJ2ZXIiLAoidHlwZSI6Im5vbmUiLAoiaG9zdCI6ImpwbC0xLmhlcmJhbHYycmF5Lm1lIiwKInRscyI6InRscyIKfQo=
+vmess://ewoidiI6IjIiLAoicHMiOiJzeHRjcC1wZ2Z2Y3hiZHgiLAoiYWRkIjoiamoiLAoicG9ydCI6IjQ0MyIsCiJpZCI6ImQwODhiN2M3LWI2NmYtNGJkYS1hNjFjLTZkNzQyZjc0YjMxMSIsCiJhaWQiOiIwIiwKIm5ldCI6IndzIiwKInBhdGgiOiIvaGVyYmFsc2VydmVyIiwKInR5cGUiOiJub25lIiwKImhvc3QiOiJqcGwtMS5oZXJiYWx2MnJheS5tZSIsCiJ0bHMiOiJ0bHMiCn0K
+
+- sg ovh
+error / maintenance...
+
+##################################################################
+
+#exp 26/01
+#mainssh
+
+// v2ray
+
+- sgcenterhop-1
+vmess://eyJhZGQiOiAic2dtd3MubWFpbnNzaC54eXoiLCAiaG9zdCI6ICJzZ213cy5tYWluc3NoLnh5eiIsICJhaWQiOiAwLCAidHlwZSI6ICIiLCAicGF0aCI6ICIvdm1lc3MiLCAibmV0IjogIndzIiwgInBzIjogIm1haW5zc2guY29tIiwgInRscyI6ICJ0bHMiLCJzbmkiOiAic2dtd3MubWFpbnNzaC54eXoiLCAidHlwZSI6ICJub25lIiwgInBvcnQiOiAiNDQzIiwgInYiOiAiMiIsICJpZCI6ICIyYTI5M2M2NC05ZjZiLTQ5ZGYtYTllNi0zNzI1NjA0ZWRmMTMifQ==
+
+- sgcenterhop-2
+vmess://eyJhZGQiOiAic2cybXdzLm1haW5zc2gueHl6IiwgImhvc3QiOiAic2cybXdzLm1haW5zc2gueHl6IiwgImFpZCI6IDAsICJ0eXBlIjogIiIsICJwYXRoIjogIi92bWVzcyIsICJuZXQiOiAid3MiLCAicHMiOiAibWFpbnNzaC5jb20iLCAidGxzIjogInRscyIsInNuaSI6ICJzZzJtd3MubWFpbnNzaC54eXoiLCAidHlwZSI6ICJub25lIiwgInBvcnQiOiAiNDQzIiwgInYiOiAiMiIsICJpZCI6ICJhOWRlMjhiMS1kMmVmLTRhMDMtOWM2ZC00NTNjZjhhNWY2ZGIifQ==
+
+- sgcenterhop-3
+vmess://eyJhZGQiOiAic2czbXdzLm1haW5zc2gueHl6IiwgImhvc3QiOiAic2czbXdzLm1haW5zc2gueHl6IiwgImFpZCI6IDAsICJ0eXBlIjogIiIsICJwYXRoIjogIi92bWVzcyIsICJuZXQiOiAid3MiLCAicHMiOiAibWFpbnNzaC5jb20iLCAidGxzIjogInRscyIsInNuaSI6ICJzZzNtd3MubWFpbnNzaC54eXoiLCAidHlwZSI6ICJub25lIiwgInBvcnQiOiAiNDQzIiwgInYiOiAiMiIsICJpZCI6ICJkNTE2ZjNmZi01NGY4LTQxYzItYTRjOS0zMGYxMjQ3MTQxMGMifQ==
+
+- idmediaantarnusa
+vmess://eyJhZGQiOiAiaWRtd3MubWFpbnNzaC54eXoiLCAiaG9zdCI6ICJpZG13cy5tYWluc3NoLnh5eiIsICJhaWQiOiAwLCAidHlwZSI6ICIiLCAicGF0aCI6ICIvdm1lc3MiLCAibmV0IjogIndzIiwgInBzIjogIm1haW5zc2guY29tIiwgInRscyI6ICJ0bHMiLCJzbmkiOiAiaWRtd3MubWFpbnNzaC54eXoiLCAidHlwZSI6ICJub25lIiwgInBvcnQiOiAiNDQzIiwgInYiOiAiMiIsICJpZCI6ICJmNGU3ZTNjNS05YjA5LTQ3ZWQtOWM5OC02Yzg0ZjBlZTZlZTEifQ==
+
+// trojan
+
+- idptmediaantarnusa
+trojan://mainssh-iogujvhj@idtws.mainssh.xyz:443?type=ws&host=idtws.mainssh.xyz&path=%2Ftrojan&sni=idtws.mainssh.xyz
+
+- sg 1
+trojan://mainssh-pguyfjc@sgtws.mainssh.xyz:443?type=ws&host=sgtws.mainssh.xyz&path=%2Ftrojan&sni=sgtws.mainssh.xyz
+
+- sg 3
+trojan://mainssh-oguigfuj@sg3tws.mainssh.xyz:443?type=ws&host=sg3tws.mainssh.xyz&path=%2Ftrojan&sni=sg3tws.mainssh.xyz
+
+- sgcenterhop 2
+trojan://mainssh-wqdcdcsvf@sg2tws.mainssh.xyz:443?type=ws&host=sg2tws.mainssh.xyz&path=%2Ftrojan&sni=sg2tws.mainssh.xyz
+
+##################################################################
+
+#jagoanssh
+
+// vmess
+
+- sg-1
+vmess://eyJhZGQiOiAic2ctcmF5Lmlwc2VydmVycy54eXoiLCAiaG9zdCI6ICJqampqIiwgImFpZCI6IDAsICJ0eXBlIjogIiIsICJwYXRoIjogIi9KQUdPQU5TU0gvIiwgIm5ldCI6ICJ3cyIsICJwcyI6ICJqYWdvYW5zc2gtZnd3ZnZzdnNzIiwgInRscyI6ICJ0bHMiLCAidHlwZSI6ICJub25lIiwgInBvcnQiOiAiNDQzIiwgInYiOiAiMiIsICJpZCI6ICJmMzk3MjlhNi00Y2RlLTQ2Y2QtOGE1Ny05ZTYxOGVlZTU0MzYifQ==
+
+- sg-2
+vmess://eyJhZGQiOiAic2cyLXJheS5pcHNlcnZlcnMueHl6IiwgImhvc3QiOiAiampqaiIsICJhaWQiOiAwLCAidHlwZSI6ICIiLCAicGF0aCI6ICIvSkFHT0FOU1NILyIsICJuZXQiOiAid3MiLCAicHMiOiAiamFnb2Fuc3NoLWppdmZkdmZkdiIsICJ0bHMiOiAidGxzIiwgInR5cGUiOiAibm9uZSIsICJwb3J0IjogIjQ0MyIsICJ2IjogIjIiLCAiaWQiOiAiNDZkMWU3NWYtZDdjMi00MDgwLTg1NGYtYmI3NjJmMTBkM2RlIn0=
+
+- id-1
+vmess://eyJhZGQiOiAiaWQxLXJheS5pcHNlcnZlcnMueHl6IiwgImhvc3QiOiAiampqaiIsICJhaWQiOiAwLCAidHlwZSI6ICIiLCAicGF0aCI6ICIvSkFHT0FOU1NILyIsICJuZXQiOiAid3MiLCAicHMiOiAiamFnb2Fuc3NoLXFkZXFqYmNrd3MiLCAidGxzIjogInRscyIsICJ0eXBlIjogIm5vbmUiLCAicG9ydCI6ICI0NDMiLCAidiI6ICIyIiwgImlkIjogIjA5NzY5NDczLTE0YWEtNGIxMS1hNzNmLTM0MzhhMDFmZjFlYiJ9
+
+- id-2
+vmess://eyJhZGQiOiAiaWQyLXJheS5pcHNlcnZlcnMueHl6IiwgImhvc3QiOiAiampqaiIsICJhaWQiOiAwLCAidHlwZSI6ICIiLCAicGF0aCI6ICIvSkFHT0FOU1NILyIsICJuZXQiOiAid3MiLCAicHMiOiAiamFnb2Fuc3NoLW1ndGZuYmRnZiIsICJ0bHMiOiAidGxzIiwgInR5cGUiOiAibm9uZSIsICJwb3J0IjogIjQ0MyIsICJ2IjogIjIiLCAiaWQiOiAiNjcwNDg3OWItNzdlMC00ZDBmLThiNDktYmM4ZjIxZTliOWU1In0=
+
+// trojan
+
+- sg-1
+trojan://jagoanssh-regsfbdbd@sg1go.ipservers.xyz:443?type=ws&host=sg1go.ipservers.xyz&path=%2Ftrojan&sni=sg1go.ipservers.xyz
+
+- sg-2
+trojan://jagoanssh-mgbfds@sg2go.ipservers.xyz:443?type=ws&host=sg2go.ipservers.xyz&path=%2Ftrojan&sni=sg2go.ipservers.xyz
+
+- id-1
+trojan://jagoanssh-hfdhbdgd@id1go.ipservers.xyz:443?type=ws&host=id1go.ipservers.xyz&path=%2Ftrojan&sni=id1go.ipservers.xyz
+
+- id-2
+trojan://jagoanssh-trgfbddfd@id2go.ipservers.xyz:443?type=ws&host=id2go.ipservers.xyz&path=%2Ftrojan&sni=id2go.ipservers.xyz
+
+##################################################################
+
+#sshmax
+
+- sg
+vmess://ew0KICAgICJ2IjogIjIiLA0KICAgICJwcyI6ICJzc2htYXgtZ3VpZ2lrIiwNCiAgICAiYWRkIjogImpqaiIsDQogICAgInBvcnQiOiAiNDQzIiwNCiAgICAiaWQiOiAiNTQwNjRjMDctMTE4Mi00MWQwLWFlMTgtYmQ1MGEzNWVjMDk3IiwNCiAgICAiYWlkIjogIjAiLA0KICAgICJuZXQiOiAid3MiLA0KICAgICJzY3kiOiJhdXRvIiwNCiAgICAic25pIjoic2ctdi5zc2htYXgueHl6IiwNCiAgICAidHlwZSI6ICJub25lIiwNCiAgICAiaG9zdCI6ICJzZy12LnNzaG1heC54eXoiLA0KICAgICJwYXRoIjogIi92bWVzcyIsDQogICAgInRscyI6ICJ0bHMiDQogICAgfQ==
+
+- sg-1
+vmess://ew0KICAgICJ2IjogIjIiLA0KICAgICJwcyI6ICJzc2htYXgtanlyaHRkZCIsDQogICAgImFkZCI6ICJqamoiLA0KICAgICJwb3J0IjogIjQ0MyIsDQogICAgImlkIjogImQxNDgyMDQxLWEyNTMtNDNjNS04ZTJjLTE2YzhjMDI1MzY2YiIsDQogICAgImFpZCI6ICIwIiwNCiAgICAibmV0IjogIndzIiwNCiAgICAic2N5IjoiYXV0byIsDQogICAgInNuaSI6InNnMS12LnNzaG1heC54eXoiLA0KICAgICJ0eXBlIjogIm5vbmUiLA0KICAgICJob3N0IjogInNnMS12LnNzaG1heC54eXoiLA0KICAgICJwYXRoIjogIi92bWVzcyIsDQogICAgInRscyI6ICJ0bHMiDQogICAgfQ==
+
+- id
+vmess://ew0KICAgICJ2IjogIjIiLA0KICAgICJwcyI6ICJzc2htYXgta3RqZG5kZ2QiLA0KICAgICJhZGQiOiAiampqIiwNCiAgICAicG9ydCI6ICI0NDMiLA0KICAgICJpZCI6ICJlMjZiZGJhYy03MTM0LTQ3MWItYWNjOS0wNmM4MDZlMzQzMWMiLA0KICAgICJhaWQiOiAiMCIsDQogICAgIm5ldCI6ICJ3cyIsDQogICAgInNjeSI6ImF1dG8iLA0KICAgICJzbmkiOiJpZC12LnNzaG1heC54eXoiLA0KICAgICJ0eXBlIjogIm5vbmUiLA0KICAgICJob3N0IjogImlkLXYuc3NobWF4Lnh5eiIsDQogICAgInBhdGgiOiAiL3ZtZXNzIiwNCiAgICAidGxzIjogInRscyINCiAgICB9
+
+##################################################################
+
