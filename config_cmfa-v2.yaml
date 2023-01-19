@@ -151,26 +151,35 @@ proxy-groups:
       - DIRECT
       - REJECT
       - All_Server
-  - name: Load_Balance
-    type: load-balance
-    strategy: consistent-hashing
-    url: "http://www.gstatic.com/generate_204"
-    interval: 300
-    use:
-      - All-Server
   - name: Best_Ping
     type: url-test
+    use:
+      - All-Server
     url: "http://www.gstatic.com/generate_204"
     interval: 300
     tolerance: 50
-    use:
-      - All-Server
+    # lazy: true
+    # disable-udp: true
+    # filter: 'HK'
   - name: Fallback
     type: fallback
     url: "http://www.gstatic.com/generate_204"
     interval: 300
     use:
       - All-Server
+    # lazy: true
+    # disable-udp: true
+    # filter: 'HK'
+  - name: Load_Balance
+    type: load-balance
+    use:
+      - All-Server
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    # lazy: true
+    # disable-udp: true
+    # filter: 'HK'
+    # strategy: consistent-hashing #round-robin
 proxy-providers:
   All-Server:
     type: http
