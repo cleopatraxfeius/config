@@ -151,7 +151,13 @@ proxy-groups:
       - DIRECT
       - REJECT
       - All_Server
-  - name: For_Game
+  - name: For_Game 
+    type: select
+    proxies:
+      - DIRECT
+      - REJECT
+      - All_Server
+  - name: TrafficPortgame 
     type: select
     proxies:
       - DIRECT
@@ -186,6 +192,11 @@ proxy-groups:
     # disable-udp: true
     # filter: 'HK'
     # strategy: consistent-hashing #round-robin
+script:
+  shortcuts:
+    TCPgames: network == 'tcp' and dst_port not in [21, 22, 23, 53, 80, 123, 143, 194, 443, 465, 587, 853, 993, 995, 998, 2052, 2053, 2082, 2083, 2086, 2095, 2096, 5222, 5228, 5229, 5230, 8080, 8443, 8880, 8883, 8888, 8889]
+    UDPgames: network == 'udp' and dst_port not in [21, 22, 23, 53, 80, 123, 143, 194, 443, 465, 587, 853, 993, 995, 998, 2052, 2053, 2082, 2083, 2086, 2095, 2096, 5222, 5228, 5229, 5230, 8080, 8443, 8880, 8883, 8888, 8889]
+    speedtest: network == "tcp" and match_provider("rule_Speedtest")
 proxy-providers:
   All-Server:
     type: http
@@ -257,6 +268,12 @@ rule-providers:
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_games.yaml
     path: "./rule_provider/rule_games.yaml"
     interval: 86400
+  rule_portgames:
+    type: http
+    behavior: classical
+    path: "./rule_provider/rule_portgames.yaml"
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_portgames.yaml
+    interval: 86400
   
 rules:
   - RULE-SET,rule_personalads,Ads_Iklan
@@ -269,4 +286,7 @@ rules:
   - RULE-SET,rule_nsfw,Web_Porn
   - RULE-SET,rule_Gaming,For_Game
   - RULE-SET,rule_games,For_Game
+  - RULE-SET,rule_portgames,TrafficPortGame
+  - SCRIPT,TCPgames,TrafficPortgame
+  - SCRIPT,UDPgames,TrafficPortGame
   - MATCH,All_Server
