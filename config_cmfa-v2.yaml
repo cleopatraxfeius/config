@@ -157,7 +157,7 @@ proxy-groups:
       - DIRECT
       - REJECT
       - All_Server
-  - name: TrafficPortGame
+  - name: Port_Game
     type: select
     proxies:
       - DIRECT
@@ -286,7 +286,7 @@ rules:
   - RULE-SET,rule_nsfw,Web_Porn
   - RULE-SET,rule_Gaming,For_Game
   - RULE-SET,rule_games,For_Game
-  - RULE-SET,rule_portgames,TrafficPortGame
-  - SCRIPT,TCPgames,TrafficPortGame
-  - SCRIPT,UDPgames,TrafficPortGame
+  - RULE-SET,rule_portgames,Port_Game
+  - SCRIPT,TCPgames,Port_Game
+  - SCRIPT,UDPgames,Port_Game
   - MATCH,All_Server
