@@ -142,22 +142,16 @@ proxy-groups:
   - name: Ads_Iklan
     type: select
     proxies:
-      - DIRECT
       - REJECT
+      - DIRECT
       - All_Server
   - name: Web_Porn
     type: select
     proxies:
-      - DIRECT
       - REJECT
+      - DIRECT
       - All_Server
   - name: For_Game 
-    type: select
-    proxies:
-      - DIRECT
-      - REJECT
-      - All_Server
-  - name: Port_Game
     type: select
     proxies:
       - DIRECT
