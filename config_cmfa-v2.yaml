@@ -157,7 +157,7 @@ proxy-groups:
       - DIRECT
       - REJECT
       - All_Server
-  - name: TrafficPortgame 
+  - name: TrafficPortgame
     type: select
     proxies:
       - DIRECT
