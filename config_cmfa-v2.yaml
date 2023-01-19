@@ -287,6 +287,6 @@ rules:
   - RULE-SET,rule_Gaming,For_Game
   - RULE-SET,rule_games,For_Game
   - RULE-SET,rule_portgames,For_Game
-  # - SCRIPT,TCPgames,Port_Game####
-  # - SCRIPT,UDPgames,Port_Game####
+  # - SCRIPT,TCPgames,Port_Game
+  # - SCRIPT,UDPgames,Port_Game
   - MATCH,All_Server
