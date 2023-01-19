@@ -55,7 +55,7 @@ proxies:
       headers:
         Host: sgovh1-ws.xvless.xyz
     udp: true
-    - name: id herza
+  - name: id herza
     server: api.qiscus.com
     port: 443
     type: trojan
