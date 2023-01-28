@@ -1,0 +1,356 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+tproxy-port: 7895
+ipv6: false
+mode: rule
+log-level: silent
+allow-lan: true
+external-controller: 0.0.0.0:9090
+secret: ""
+bind-address: "*"
+unified-delay: true
+profile:
+  store-selected: true
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: redir-host
+  listen: 0.0.0.0:7874
+  nameserver:
+    - 8.8.8.8
+    - 1.0.0.1
+    - https://dns.google/dns-query
+  fallback:
+    - 1.1.1.1
+    - 8.8.4.4
+    - https://cloudflare-dns.com/dns-query
+    - 112.215.203.254
+  default-nameserver:
+    - 8.8.8.8
+    - 1.1.1.1
+    - 112.215.203.254
+proxies:
+  - name: sshocean-tuhtdrsfd
+    server: jjj
+    port: 443
+    type: vless
+    uuid: 8cc09f5a-04e3-4e3f-b39c-07180aaf151d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg1-ctb-ws.xvless.xyz
+    udp: true
+  - name: sshocean-gtrtgsgre
+    server: jjj
+    port: 443
+    type: vless
+    uuid: e25e683c-b0ae-4049-9001-5c99312ab210
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sgovh1-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sgovh1-ws.xvless.xyz
+    udp: true
+  - name: jj
+    server: jj
+    port: 443
+    type: trojan
+    password: 96a20890-9f0d-11ed-a573-1239d0255272
+    skip-cert-verify: true
+    sni: idtj-herza.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: idtj-herza.bonds.id
+    udp: true
+  - name: rreg
+    server: rreg
+    port: 443
+    type: trojan
+    password: 73609930-9f0d-11ed-a560-1239d0255272
+    skip-cert-verify: true
+    sni: idtj-ikd.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: idtj-ikd.bonds.id
+    udp: true
+  - name: jj 2
+    server: jj
+    port: 443
+    type: trojan
+    password: 4b761420-9f0e-11ed-b9fd-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
+  - name: gg
+    server: gg
+    port: 443
+    type: trojan
+    password: d6a18820-9f0d-11ed-b92f-1239d0255272
+    skip-cert-verify: true
+    sni: sg3-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: ef
+    server: ef
+    port: 443
+    type: trojan
+    password: 6fdcf930-9f0e-11ed-a4fd-1239d0255272
+    skip-cert-verify: true
+    sni: sg-atha.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-atha.bonds.id
+    udp: true
+  - name: gg 2
+    server: gg
+    port: 443
+    type: trojan
+    password: e65b92f0-9f0e-11ed-849e-1239d0255272
+    skip-cert-verify: true
+    sni: br1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: br1-trojan.bonds.id
+    udp: true
+  - name: sxtcp-fgrdgwgr
+    server: jj
+    port: 443
+    type: vmess
+    uuid: e324a647-8d3a-4a06-8cab-a3624fb9b75a
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sgdo-1.herbalv2ray.me
+    network: ws
+    ws-opts:
+      path: /herbalserver
+      headers:
+        Host: sgdo-1.herbalv2ray.me
+    udp: true
+  - name: sxtcp-qrebgfrdx
+    server: jjjj
+    port: 443
+    type: vmess
+    uuid: 0c52f84e-8b1a-45f5-b8de-c4c2a394a410
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sgl-2.herbalv2ray.me
+    network: ws
+    ws-opts:
+      path: /herbalserver
+      headers:
+        Host: sgl-2.herbalv2ray.me
+    udp: true
+  - name: serverssh-opnibjhvghj
+    server: sg3ray.serverip.my.id
+    port: 443
+    type: vmess
+    uuid: 5feafd0e-7069-4cc8-8c6a-e10aa98b550d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: jjjj
+    network: ws
+    ws-opts:
+      path: /serverssh.net
+      headers:
+        Host: sg3ray.serverip.my.id
+    udp: true
+  - name: serverssh-htrdgtdfgfr
+    server: sg1ray.serverip.my.id
+    port: 443
+    type: vless
+    uuid: df7c1308-8767-42c8-9eb1-a69b10a34a42
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: rreg
+    network: ws
+    ws-opts:
+      path: /serverssh
+      headers:
+        Host: sg1ray.serverip.my.id
+    udp: true
+  - name: id-lb.vhax.net
+    server: id-lb.vhax.net
+    port: 443
+    type: vmess
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ytghbd
+    network: ws
+    ws-opts:
+      path: /sshkit/lplgofenfds/63d5286c70de4/
+      headers:
+        Host: ytghbd
+    udp: true
+  - name: sg-lb.vhax.net
+    server: sg-lb.vhax.net
+    port: 443
+    type: vmess
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ytghbd
+    network: ws
+    ws-opts:
+      path: /sshkit/hygffgffn/63d5282c3a144/
+      headers:
+        Host: ytghbd
+    udp: true
+  - name: mainssh.com
+    server: sg2mws.mainssh.xyz
+    port: 443
+    type: vmess
+    uuid: d21e1635-f604-49e2-8fe8-7a0bf7ee8f5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg2mws.mainssh.xyz
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg2mws.mainssh.xyz
+    udp: true
+  - name: mainssh.com 2
+    server: sg3mws.mainssh.xyz
+    port: 443
+    type: vmess
+    uuid: a7d60458-ca33-4c11-a6ac-c79783a33b4c
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg3mws.mainssh.xyz
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg3mws.mainssh.xyz
+    udp: true
+  - name: jagoanssh-gtegrfedfe
+    server: sg4vless.ipservers.xyz
+    port: 443
+    type: vless
+    uuid: 1be14d59-d47b-4823-af74-ff588dc785e5
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: rreg
+    network: ws
+    ws-opts:
+      path: /jagoanssh
+      headers:
+        Host: sg4vless.ipservers.xyz
+    udp: true
+  - name: jagoanssh-yugkfyjdu
+    server: id1vless.ipservers.xyz
+    port: 443
+    type: vless
+    uuid: f9e18dfa-a5e5-4671-8525-dc8ff8e15827
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: jjjj
+    network: ws
+    ws-opts:
+      path: /jagoanssh
+      headers:
+        Host: id1vless.ipservers.xyz
+    udp: true
+  - name: sshmax-vdcdwfrw
+    server: jjj
+    port: 443
+    type: vless
+    uuid: eb74fb50-aa0e-4d76-a6f9-afba33a645fc
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id-v.sshmax.xyz
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: id-v.sshmax.xyz
+    udp: true
+  - name: sshmax-gsdsvdsvfs
+    server: jjj
+    port: 443
+    type: vless
+    uuid: f4718693-4960-4050-a8f1-b0c6047e3a7b
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-v.sshmax.xyz
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: sg-v.sshmax.xyz
+    udp: true
+proxy-groups:
+  - name: FASTSSH-SSHKIT-HOWDY
+    type: select
+    proxies:
+      - sshocean-tuhtdrsfd
+      - sshocean-gtrtgsgre
+      - jj
+      - rreg
+      - jj 2
+      - gg
+      - ef
+      - gg 2
+      - sxtcp-fgrdgwgr
+      - sxtcp-qrebgfrdx
+      - serverssh-opnibjhvghj
+      - serverssh-htrdgtdfgfr
+      - id-lb.vhax.net
+      - sg-lb.vhax.net
+      - mainssh.com
+      - mainssh.com 2
+      - jagoanssh-gtegrfedfe
+      - jagoanssh-yugkfyjdu
+      - sshmax-vdcdwfrw
+      - sshmax-gsdsvdsvfs
+      - DIRECT
+rules:
+  - MATCH,FASTSSH-SSHKIT-HOWDY
