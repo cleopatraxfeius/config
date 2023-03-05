@@ -129,12 +129,16 @@ dns:
     - +.media.dssott.com
 proxies:
 proxy-groups:
-  - name: Fallback_server
-    type: fallback
-    url: http://hi.bonds.id/ping
-    interval: 300
+  - name: Best_Ping
+    type: url-test
     use:
       - All-Server
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    tolerance: 50
+    # lazy: true
+    # disable-udp: true
+    # filter: 'HK'
 proxy-providers:
   All-Server:
     type: http
