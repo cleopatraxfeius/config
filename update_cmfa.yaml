@@ -1,5 +1,5 @@
 # config update
-# 04 Februari 2023
+# 12 Maret 2023
 
 ###
 # untuk dibawah ini cuma testing saja okey
@@ -10,11 +10,43 @@
 #
 
 proxies:
-  - name: sshocean-sgcontabo
+  - name: sshocean-jdksjzjj
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: c709458d-1569-491e-8062-2a9c3ab0199b
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg3.v2rayserv.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg3.v2rayserv.com
+    udp: true
+  - name: sshocean-jdjdjjskn
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: bf144b2d-1a18-45b4-9372-64dd3e9682df
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg2-mlb.v2rayserv.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg2-mlb.v2rayserv.com
+    udp: true
+  - name: sshocean-jsjsjjsjjdjz
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: 8cc09f5a-04e3-4e3f-b39c-07180aaf151d
+    uuid: aac1bd69-5903-42f5-a05e-49938b640b75
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -25,11 +57,11 @@ proxies:
       headers:
         Host: sg1-ctb-ws.xvless.xyz
     udp: true
-  - name: sshocean-sgovh
+  - name: sshocean-pdosjdjdj
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: e25e683c-b0ae-4049-9001-5c99312ab210
+    uuid: d4f79ebd-00ef-4bc3-b728-0b8dcb5a3112
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -40,50 +72,11 @@ proxies:
       headers:
         Host: sgovh1-ws.xvless.xyz
     udp: true
-  - name: howdy-idherza
+  - name: jjj
     server: api.qiscus.com
     port: 443
     type: trojan
-    password: 96a20890-9f0d-11ed-a573-1239d0255272
-    skip-cert-verify: true
-    sni: idtj-herza.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: idtj-herza.bonds.id
-    udp: true
-  - name: howdy-idikd
-    server: api.qiscus.com
-    port: 443
-    type: trojan
-    password: 73609930-9f0d-11ed-a560-1239d0255272
-    skip-cert-verify: true
-    sni: idtj-ikd.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: idtj-ikd.bonds.id
-    udp: true
-  - name: howdy-sghe-1
-    server: api.qiscus.com
-    port: 443
-    type: trojan
-    password: 4b761420-9f0e-11ed-b9fd-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: howdy-sghe-3
-    server: api.qiscus.com
-    port: 443
-    type: trojan
-    password: d6a18820-9f0d-11ed-b92f-1239d0255272
+    password: d2cb2660-bb5e-11ed-acc6-1239d0255272
     skip-cert-verify: true
     sni: sg3-trojan.bonds.id
     network: ws
@@ -92,69 +85,76 @@ proxies:
       headers:
         Host: sg3-trojan.bonds.id
     udp: true
-  - name: howdy-sgamp
+  - name: jjj 2
     server: api.qiscus.com
     port: 443
     type: trojan
-    password: 6fdcf930-9f0e-11ed-a4fd-1239d0255272
+    password: ecffc490-bb5e-11ed-a3d2-1239d0255272
     skip-cert-verify: true
-    sni: sg-atha.bonds.id
+    sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: sg-atha.bonds.id
+        Host: sg1-trojan.bonds.id
     udp: true
-  - name: howdy-brazil
+  - name: jjj 3
     server: api.qiscus.com
     port: 443
     type: trojan
-    password: e65b92f0-9f0e-11ed-849e-1239d0255272
+    password: 077aee90-bb5f-11ed-9d97-1239d0255272
     skip-cert-verify: true
-    sni: br1-trojan.bonds.id
+    sni: sg-3.test3.net
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: br1-trojan.bonds.id
+        Host: sg-3.test3.net
     udp: true
-  - name: herbal-sgdo
+  - name: jjj 4
     server: api.qiscus.com
     port: 443
-    type: vmess
-    uuid: e324a647-8d3a-4a06-8cab-a3624fb9b75a
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 1fd112f0-bb5f-11ed-8d5f-1239d0255272
     skip-cert-verify: true
-    servername: sgdo-1.herbalv2ray.me
+    sni: sg2-trojan.bonds.id
     network: ws
     ws-opts:
-      path: /herbalserver
+      path: /howdy
       headers:
-        Host: sgdo-1.herbalv2ray.me
+        Host: sg2-trojan.bonds.id
     udp: true
-  - name: herbal-linode-2
+  - name: jjj 5
     server: api.qiscus.com
     port: 443
-    type: vmess
-    uuid: 0c52f84e-8b1a-45f5-b8de-c4c2a394a410
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 39c5d040-bb5f-11ed-bde2-1239d0255272
     skip-cert-verify: true
-    servername: sgl-2.herbalv2ray.me
+    sni: id-1.test3.net
     network: ws
     ws-opts:
-      path: /herbalserver
+      path: /howdy
       headers:
-        Host: sgl-2.herbalv2ray.me
+        Host: id-1.test3.net
     udp: true
-  - name: serverssh-sg3
+  - name: jjj 6
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: 4c8e7b00-bb5f-11ed-849a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: serverssh-pdkjsndjjdn
     server: api.qiscus.com
     port: 443
     type: vmess
-    uuid: 5feafd0e-7069-4cc8-8c6a-e10aa98b550d
+    uuid: fd0226e5-79d6-4320-a878-374af9aee087
     alterId: 0
     cipher: auto
     tls: true
@@ -166,11 +166,11 @@ proxies:
       headers:
         Host: sg3ray.serverip.my.id
     udp: true
-  - name: serverssh-sg1
+  - name: serverssh-mmdnsjznjs
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: df7c1308-8767-42c8-9eb1-a69b10a34a42
+    uuid: 57a4aa0e-994a-45e0-ae72-5d6af45272d1
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -181,23 +181,7 @@ proxies:
       headers:
         Host: sg1ray.serverip.my.id
     udp: true
-  - name: sshkit-idlb
-    server: api.qiscus.com
-    port: 443
-    type: vmess
-    uuid: 6fea1649-425b-4092-bf53-29792152c925
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id-lb.vhax.net
-    network: ws
-    ws-opts:
-      path: /sshkit/lplgofenfds/63d5286c70de4/
-      headers:
-        Host: id-lb.vhax.net
-    udp: true
-  - name: sshkit-sglb
+  - name: sg-lb.vhax.net
     server: api.qiscus.com
     port: 443
     type: vmess
@@ -209,77 +193,45 @@ proxies:
     servername: sg-lb.vhax.net
     network: ws
     ws-opts:
-      path: /sshkit/hygffgffn/63d5282c3a144/
+      path: /sshkit/oskkdkjsn/6404a4ec70362/
       headers:
         Host: sg-lb.vhax.net
     udp: true
-  - name: mainssh.com-sg-2
-    server: api.qiscus.com
-    port: 443
-    type: vmess
-    uuid: d21e1635-f604-49e2-8fe8-7a0bf7ee8f5a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg2mws.mainssh.xyz
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg2mws.mainssh.xyz
-    udp: true
-  - name: mainssh.com-sg-3
-    server: api.qiscus.com
-    port: 443
-    type: vmess
-    uuid: a7d60458-ca33-4c11-a6ac-c79783a33b4c
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg3mws.mainssh.xyz
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg3mws.mainssh.xyz
-    udp: true
-  - name: jagoanssh-sg-4
+  - name: mainssh-oekkdkdk
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: 1be14d59-d47b-4823-af74-ff588dc785e5
+    uuid: 70467384-3aea-4a69-86ab-96a0584d94d7
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg4vless.ipservers.xyz
+    servername: sglws.mainssh.xyz
     network: ws
     ws-opts:
-      path: /jagoanssh
+      path: /vless
       headers:
-        Host: sg4vless.ipservers.xyz
+        Host: sglws.mainssh.xyz
     udp: true
-  - name: jagoanssh-id-1
+  - name: mainssh-oskeknsnd
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: f9e18dfa-a5e5-4671-8525-dc8ff8e15827
+    uuid: 40db19e0-9fff-473d-9eae-980e7564d728
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id1vless.ipservers.xyz
+    servername: idlws.mainssh.xyz
     network: ws
     ws-opts:
-      path: /jagoanssh
+      path: /vless
       headers:
-        Host: id1vless.ipservers.xyz
+        Host: idlws.mainssh.xyz
     udp: true
-  - name: sshmax-id-v
+  - name: sshmax-kejdnndnd
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: eb74fb50-aa0e-4d76-a6f9-afba33a645fc
+    uuid: ab04d8c8-c6f6-4199-8de0-9120835e8fc1
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -290,11 +242,11 @@ proxies:
       headers:
         Host: id-v.sshmax.xyz
     udp: true
-  - name: sshmax-sg-v
+  - name: sshmax-faldnsnnx
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: f4718693-4960-4050-a8f1-b0c6047e3a7b
+    uuid: fa3a9128-e64c-4b1a-bf15-ac0860673f26
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -305,7 +257,7 @@ proxies:
       headers:
         Host: sg-v.sshmax.xyz
     udp: true
-  - name: "exp ® 04 februari 🐿️✨"
+  - name: "exp ® 12 maret 🐿️✨"
     type: socks5
     server: expired_date
     port: 443
