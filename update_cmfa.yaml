@@ -72,7 +72,7 @@ proxies:
       headers:
         Host: sgovh1-ws.xvless.xyz
     udp: true
-  - name: jjj
+  - name: howdy-sghe3
     server: api.qiscus.com
     port: 443
     type: trojan
@@ -85,7 +85,7 @@ proxies:
       headers:
         Host: sg3-trojan.bonds.id
     udp: true
-  - name: jjj 2
+  - name: howdy-sghe1
     server: api.qiscus.com
     port: 443
     type: trojan
@@ -98,7 +98,7 @@ proxies:
       headers:
         Host: sg1-trojan.bonds.id
     udp: true
-  - name: jjj 3
+  - name: howdy-sg
     server: api.qiscus.com
     port: 443
     type: trojan
@@ -111,7 +111,7 @@ proxies:
       headers:
         Host: sg-3.test3.net
     udp: true
-  - name: jjj 4
+  - name: howdy-sghh
     server: api.qiscus.com
     port: 443
     type: trojan
@@ -124,7 +124,7 @@ proxies:
       headers:
         Host: sg2-trojan.bonds.id
     udp: true
-  - name: jjj 5
+  - name: howdy-idikd
     server: api.qiscus.com
     port: 443
     type: trojan
@@ -137,7 +137,7 @@ proxies:
       headers:
         Host: id-1.test3.net
     udp: true
-  - name: jjj 6
+  - name: howdy-sgtest
     server: api.qiscus.com
     port: 443
     type: trojan
