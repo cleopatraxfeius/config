@@ -150,4 +150,4 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
       interval: 600
 rules:
-  - MATCH,Fallback_server
+  - MATCH,Best_Ping
