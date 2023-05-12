@@ -1,0 +1,228 @@
+# config update
+# 19 Mei 2023
+
+###
+# untuk dibawah ini cuma testing saja okey
+#
+
+###
+# dibawah ini server utama, jangan di utak atik okey
+#
+
+proxies:
+  - name: sshocean-wdbsjbdb/sg
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: 3fd9fd39-172e-459f-bee1-c9df651f87e3
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sgovh1.v2rayserv.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sgovh1.v2rayserv.com
+    udp: true
+  - name: sshocean-fwsjsjxnj/id
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: 61b57c95-f9c4-45dd-908d-bf6ff927a1ad
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id4.v2rayserv.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: id4.v2rayserv.com
+    udp: true
+  - name: sghe-3/1
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: 1c4ec420-f0ba-11ed-98ec-1239d0255272
+    skip-cert-verify: true
+    sni: sg3-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: sghe-3/2
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: 30ae55d0-f0ba-11ed-8acc-1239d0255272
+    skip-cert-verify: true
+    sni: sg3-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: sghe-1/1
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: 5c3527b0-f0ba-11ed-bf33-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
+  - name: sghe-1/2
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: 7908a850-f0ba-11ed-9467-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
+  - name: sghe-2/1
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: 9fc04a80-f0ba-11ed-8428-1239d0255272
+    skip-cert-verify: true
+    sni: sg2-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg2-trojan.bonds.id
+    udp: true
+  - name: sghe-2/2
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: c5f44190-f0ba-11ed-b4e6-1239d0255272
+    skip-cert-verify: true
+    sni: sg2-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg2-trojan.bonds.id
+    udp: true
+  - name: sg-melbi
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: de184e10-f0ba-11ed-9ebc-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+  - name: sg-amp
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: fb248a00-f0ba-11ed-bf0b-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+  - name: id-herza
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: 2091ac50-f0bb-11ed-8748-1239d0255272
+    skip-cert-verify: true
+    sni: id-1.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
+    udp: true
+  - name: serverssh-wosjejskjd
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: 9de7e4f8-f013-4859-99a8-6bbb1e25073f
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg2ray.serverip.my.id
+    network: ws
+    ws-opts:
+      path: /serverssh.net
+      headers:
+        Host: sg2ray.serverip.my.id
+    udp: true
+  - name: serverssh-wosjsn
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: cca77d74-ef9c-4c79-8091-453c3c8ec28a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1ray.serverip.my.id
+    network: ws
+    ws-opts:
+      path: /serverssh
+      headers:
+        Host: sg1ray.serverip.my.id
+    udp: true
+  - name: mainssh.com/sg
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: df933a26-caf9-41f3-ab8b-ba3ec1df4836
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg2mws.mainssh.xyz
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg2mws.mainssh.xyz
+    udp: true
+  - name: sshmax-widjsnssj/sg
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: 0baaf014-af04-4028-be53-f5c75bb276ae
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-v.sshmax.xyz
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg-v.sshmax.xyz
+    udp: true
+  - name: "exp ® 19 mei 🐿️✨"
+    type: socks5
+    server: expired_date
+    port: 443
