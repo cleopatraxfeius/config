@@ -233,36 +233,6 @@ proxies:
       headers:
         Host: sg1ray.serverip.my.id
     udp: true
-  - name: mainssh-sg
-    server: sglws.mainssh.xyz
-    port: 443
-    type: vless
-    uuid: d594a74a-a976-4c88-81f2-778e25e23b33
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sglws.mainssh.xyz
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: sglws.mainssh.xyz
-    udp: true
-  - name: sshmax-sg
-    server: freeport.atas.my.id
-    port: 443
-    type: vless
-    uuid: 8682a382-244b-4dec-bbe3-fccd5d5a84cc
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg-v.sshmax.xyz
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: sg-v.sshmax.xyz
-    udp: true
   - name: "exp ® 20 juni 🐿️✨"
     type: socks5
     server: expired_date
